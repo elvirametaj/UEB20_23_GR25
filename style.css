@@ -329,6 +329,20 @@ nav{
                       }
 
 
+                      .juma-quiz .juma-result {
+                        display: block; }
+                      
+                      #title-country{
+                        color:rgba(0, 0, 0, 0.7);
+                        margin-top: auto;
+                        font-weight: 400;
+                        font-size: 2.5rem;
+                        text-align: top;
+                        font-family: 'Trade Winds', cursive;;
+                        line-height: 4vw;;
+                      }
+
+
 
 
 /* Footer styling */
