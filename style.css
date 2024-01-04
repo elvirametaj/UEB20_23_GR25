@@ -258,6 +258,17 @@ nav{
   
   }
 
+  .juma-quiz h3 {
+    line-height: 26px;
+    border-bottom: 1px solid #963131;
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 2vw 0 1vw 0}
+
+
+
 
 
 /* Footer styling */
