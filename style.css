@@ -222,6 +222,11 @@ p {
     position: relative;
  }
  
+ .ul-nav{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
 
 
