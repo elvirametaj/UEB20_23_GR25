@@ -268,7 +268,12 @@ nav{
     padding: 2vw 0 1vw 0}
 
 
-
+    .juma-quiz ul {
+        padding: 5px 0 5px 10px; }
+      .juma-quiz li {
+        position: relative;
+        margin-bottom: 20px;
+        list-style: none; }
 
 
 /* Footer styling */
