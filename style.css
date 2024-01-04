@@ -285,6 +285,24 @@ nav{
               background: black;
               outline: none; }
 
+              .juma-quiz ol ul li:before {
+                opacity: 0;
+                content: "?";
+                position: absolute;
+                top: 8px;
+                left: -18px;
+                color: #1E9B1A;
+                font-size: 20px;
+                line-height: 20px;
+                text-align: center;
+                background-color: black;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%; }
+
+
+
+
 
 /* Footer styling */
 .footer {
