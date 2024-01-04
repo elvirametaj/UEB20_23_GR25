@@ -301,7 +301,17 @@ nav{
                 border-radius: 50%; }
 
 
-
+                .juma-quiz .juma-choice {
+                    color: #000;
+                    font-weight: bold; }
+                  .juma-quiz ul li:hover:before,
+                  .juma-quiz ul .juma-choice:before {
+                    opacity: 1; }
+                  .juma-quiz .juma-forward {
+                    background-color: black;
+                    border-radius: 6px;
+                    display: inline;
+                    padding: 10px; }
 
 
 /* Footer styling */
