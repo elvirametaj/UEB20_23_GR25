@@ -233,6 +233,11 @@ nav ul li a{
     font-family:'Open Sans', sans-serif;
 }
 
+nav{
+    width: 100vw;
+    background-color: rgb(33, 34, 34);
+    text-align: center;
+  }
 
 
 
