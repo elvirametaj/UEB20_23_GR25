@@ -342,6 +342,19 @@ nav{
                         line-height: 4vw;;
                       }
 
+                      .btn{
+                        color: #fff;
+                        background-color: #e8491d;
+                        border-radius: 5px;
+                        transition: background-color 0.3s;
+                    }
+                    .juma-quiz li {
+                      display: none;
+                      cursor: pointer; }
+                    .juma-quiz .active,
+                    .juma-quiz .active li {
+                      display: block; }
+
 
 
 
