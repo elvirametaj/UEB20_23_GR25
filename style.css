@@ -228,7 +228,10 @@ p {
     text-align: center;
 }
 
-
+nav ul li a{
+    color: white;
+    font-family:'Open Sans', sans-serif;
+}
 
 
 
