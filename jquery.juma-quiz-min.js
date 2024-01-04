@@ -18,3 +18,25 @@
         k.next("li").addClass("active"),i.attr("disabled","disabled"),g.progress&&(o.css("width",q/a(h).length),n=parseInt(o.css("width"),10),a(m+" > span")
         .css("width",n*a(h).index(a(".active"))+"px"))}var g,h,i,j,k,l,m,n,o,p,q,r="jumaQuiz",s={container:"juma-quiz",progress:!0,nextAuto:!1,showFinalScore:!1},t=[],u=0,v=0;
         b.prototype={init:function(){p="#"+g.container,h=p+" > li",g.progress&&c(),d(h),e()}},a.fn[r]=function(c){return this.each(function(){a.data(this,"plugin_"+r)||a.data(this,"plugin_"+r,new b(this,c))})}}(jQuery);
+
+
+        /* description: send email to concat*/
+/* @param concat form : object*/
+/* return: boolean -*/
+
+function sendMail(contactForm) {
+    emailjs.send("default_service", "travel", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailaddress.value,
+        "packet_information": contactForm.packetinformation.value
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    return false;  
+}
