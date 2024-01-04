@@ -239,7 +239,11 @@ nav{
     text-align: center;
   }
 
-
+  nav{
+    width: 100vw;
+    background-color: rgb(33, 34, 34);
+    text-align: center;
+  }
 
 
 
