@@ -214,6 +214,14 @@ p {
     background: no-repeat linear-gradient(250deg, #ebeee7, #efeeec);
   }
 
+  .nav-list{
+    list-style-type: none; 
+    padding: 1.4vw;
+    display: inline-block;
+    font-size: 1.3vw;
+    position: relative;
+ }
+ 
 
 
 
