@@ -313,6 +313,23 @@ nav{
                     display: inline;
                     padding: 10px; }
 
+                    .juma-quiz .juma-progress {
+                        background-color: black;
+                        height: 10px;}
+                      .juma-quiz .juma-progress span {
+                        height: 10px;
+                        background-color: #c63f3f;
+                        opacity: 0.7;
+                        position: absolute; }
+                      .juma-quiz .juma-score li {
+                        display: none;
+                        list-style: none;
+                        line-height: 24px;
+                        padding: 2px 10px; 
+                      }
+
+
+
 
 /* Footer styling */
 .footer {
