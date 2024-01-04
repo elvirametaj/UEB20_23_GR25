@@ -275,6 +275,16 @@ nav{
         margin-bottom: 20px;
         list-style: none; }
 
+        .juma-quiz ol ul li {
+            cursor: pointer;
+            position: relative;
+            padding: 10px 5px;
+            margin-bottom: 0;
+            border-bottom: 1px dotted #8f8f8f; }
+            .juma-quiz ol ul li:focus, .juma-quiz ol ul li:focus:before {
+              background: black;
+              outline: none; }
+
 
 /* Footer styling */
 .footer {
