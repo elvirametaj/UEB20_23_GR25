@@ -645,6 +645,9 @@ a{
     padding: 5px;
     cursor: pointer;
   }
+  .ratingStars label:before {
+    content: "\2605";
+  }
 
 
 
