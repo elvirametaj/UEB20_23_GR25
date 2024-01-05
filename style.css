@@ -498,6 +498,9 @@ nav .fa{
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
+    margin-bottom: 50px;
+    background-image: url('img-pattern.svg');
+}
 
 
 
