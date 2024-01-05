@@ -501,6 +501,9 @@ nav .fa{
     margin-bottom: 50px;
     background-image: url('img-pattern.svg');
 }
+.col-4 img{
+    width:100%;
+}
 
 
 
