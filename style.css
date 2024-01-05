@@ -587,6 +587,11 @@ a{
     color: black;
     font-weight: bold;
 }
+#feedback-section {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
 
 
 
