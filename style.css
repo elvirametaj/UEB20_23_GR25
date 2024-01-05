@@ -534,7 +534,14 @@ a{
     color: inherit;
     text-decoration: none;
 }
+
 .travel-card { overflow: hidden;}
+
+.travel-card .has-before { 
+    padding-block: 30px;
+    margin-block-end: 26px;
+    z-index: 1;
+}
 
 
 
