@@ -20,8 +20,3 @@
         b.prototype={init:function(){p="#"+g.container,h=p+" > li",g.progress&&c(),d(h),e()}},a.fn[r]=function(c){return this.each(function(){a.data(this,"plugin_"+r)||a.data(this,"plugin_"+r,new b(this,c))})}}(jQuery);
 
 
-<<<<<<< HEAD
- 
-=======
-   
->>>>>>> fe9d24d6889e027826d39cb62b46a1359831032d
