@@ -668,6 +668,11 @@ a{
     cursor: pointer;
     transition: transform 0.5s;
 }
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
 
 
 
