@@ -527,6 +527,9 @@ h4 {
     font-weight: bold;
     text-transform: uppercase;
 }
+.h4 p{
+    font-size: 14px;
+}
 
 
 
