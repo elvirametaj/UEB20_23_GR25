@@ -625,6 +625,10 @@ a{
     border: 1px solid #685151;
     background: rgb(238, 202, 149);
     transition: 1s;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
 
 
 
