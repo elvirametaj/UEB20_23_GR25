@@ -454,6 +454,10 @@ nav .fa{
 .sub-header{
     width: 100%;
     background-size: cover;
+    background-color:  #685151;
+    background-position: center;
+    position: relative;
+}
 
 
 
