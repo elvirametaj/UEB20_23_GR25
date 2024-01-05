@@ -448,6 +448,9 @@ nav img{
     font-weight: bold;
     border-radius: 5px;
 }
+nav .fa{
+    display: none;
+}
 
 
 
