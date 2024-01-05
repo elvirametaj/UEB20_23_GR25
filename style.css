@@ -636,6 +636,9 @@ a{
     position: relative;
     display: inline-block;
   }
+  .ratingStars input {
+    display: none;
+  }
 
 
 
