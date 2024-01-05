@@ -410,7 +410,11 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-
+.text-box{
+    width: 90%;
+    color: rgb(238, 202, 149);
+    position: absolute;
+    top: 50%;
 
 
 
