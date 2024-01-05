@@ -639,6 +639,12 @@ a{
   .ratingStars input {
     display: none;
   }
+  .ratingStars label {
+    color: #ddd;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+  }
 
 
 
