@@ -563,6 +563,8 @@ a{
 }
 .travel-card .card-banner { transition: var(--transition-2);}
 
+.travel-card:is(:hover, :focus-within) .card-banner { transform: scale(1.05);}
+
 
 
 
