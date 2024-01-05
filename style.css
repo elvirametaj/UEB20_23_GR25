@@ -516,7 +516,12 @@ nav .fa{
     background: #685151;
     width: 80px;
     height: 5px;
-
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 
 
