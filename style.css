@@ -511,6 +511,11 @@ nav .fa{
     line-height: 60px;
     color: black;
 }
+.title::after{
+    content: '';
+    background: #685151;
+    width: 80px;
+    height: 5px;
 
 
 
