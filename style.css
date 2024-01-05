@@ -374,6 +374,9 @@ nav{
     background-position: center;
     position: relative;
 }
+nav{
+    display: flex;
+    padding: 2% 6%;
 
 
 
