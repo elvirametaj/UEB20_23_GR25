@@ -683,6 +683,12 @@ a{
 .fa.fa-star { color: rgb(219, 219, 41);}
 .fa.fa-star-o { color: rgb(219, 219, 41);}
 
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
 
 
 /* Footer styling */
