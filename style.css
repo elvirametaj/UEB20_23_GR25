@@ -488,6 +488,12 @@ nav .fa{
         padding: 30px;
     }
 }
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
 
