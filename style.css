@@ -601,6 +601,9 @@ a{
     width: 50%;
     margin-bottom: 10px;
 }
+#comments button {
+    cursor: pointer;
+}
 
 
 
