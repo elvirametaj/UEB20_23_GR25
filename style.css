@@ -402,6 +402,11 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
+    background: rgb(238, 202, 149);
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+} 
 
 
 
