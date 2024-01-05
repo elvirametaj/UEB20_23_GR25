@@ -10,12 +10,25 @@ videoBtn.forEach(btn => {
 });
 
 /*--- JavaScript for Toggle Menu --*/
-<script>
- var navLinks=document.getElementById("navLinks");
+
+ var navLinks = document.getElementById("navLinks");
  function showMenu(){
    navLinks.style.right = "0";
  }
  function hideMenu(){
    navLinks.style.right = "-200px";
  }
-</script>
+
+
+/*-- JS For Rating ---*/
+
+  const ratingInputs = document.querySelectorAll('.rating input');
+
+  ratingInputs.forEach(input => {
+    input.addEventListener('change', () => {
+      const rating = input.value;
+      alert(`You rated ${ratingStars} stars!`);
+    });
+  });
+
+
