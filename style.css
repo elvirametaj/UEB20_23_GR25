@@ -648,6 +648,9 @@ a{
   .ratingStars label:before {
     content: "\2605";
   }
+  .ratingStars input:checked ~ label {
+    color: #ffcc00;
+  }
 
 
 
