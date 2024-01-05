@@ -568,7 +568,12 @@ a{
 #hiddenText {
     color: black(46, 45, 45);
 }
-
+#readMore {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 34px;
 
 
 
