@@ -191,6 +191,9 @@ p {
     background-color: #e8491d;
 }
 
+
+/*Quiz css */
+
 .container{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px white;
@@ -260,7 +263,7 @@ nav{
 
   .juma-quiz h3 {
     line-height: 26px;
-    border-bottom: 1px solid #963131;
+    border-bottom: 1px solid #953838;
     margin: 0;
     font-family:'Open Sans', sans-serif;
     font-weight: normal;
@@ -318,7 +321,7 @@ nav{
                         height: 10px;}
                       .juma-quiz .juma-progress span {
                         height: 10px;
-                        background-color: #c63f3f;
+                        background-color: #b76e6e;
                         opacity: 0.7;
                         position: absolute; }
                       .juma-quiz .juma-score li {
