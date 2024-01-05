@@ -597,6 +597,10 @@ a{
     background-color: #685151;
     color: rgb(238, 202, 149);
 }
+#comments textarea {
+    width: 50%;
+    margin-bottom: 10px;
+}
 
 
 
