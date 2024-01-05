@@ -20,23 +20,8 @@
         b.prototype={init:function(){p="#"+g.container,h=p+" > li",g.progress&&c(),d(h),e()}},a.fn[r]=function(c){return this.each(function(){a.data(this,"plugin_"+r)||a.data(this,"plugin_"+r,new b(this,c))})}}(jQuery);
 
 
-        /* description: send email to concat*/
-/* @param concat form : object*/
-/* return: boolean -*/
-
-function sendMail(contactForm) {
-    emailjs.send("default_service", "travel", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "packet_information": contactForm.packetinformation.value
-    })
-    .then(
-        function(response) {
-            console.log("SUCCESS", response);
-        },
-        function(error) {
-            console.log("FAILED", error);
-        }
-    );
-    return false;  
-}
+<<<<<<< HEAD
+ 
+=======
+   
+>>>>>>> fe9d24d6889e027826d39cb62b46a1359831032d
