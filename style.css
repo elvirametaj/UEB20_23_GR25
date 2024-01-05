@@ -615,6 +615,12 @@ a{
     border: 1px solid rgb(238, 202, 149);
     padding: 12px 24px;
     margin: 7px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
 
 
