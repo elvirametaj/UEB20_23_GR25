@@ -282,7 +282,7 @@ nav{
             margin-bottom: 0;
             border-bottom: 1px dotted #8f8f8f; }
             .juma-quiz ol ul li:focus, .juma-quiz ol ul li:focus:before {
-              background: black;
+              background: white;
               outline: none; }
 
               .juma-quiz ol ul li:before {
@@ -295,7 +295,7 @@ nav{
                 font-size: 20px;
                 line-height: 20px;
                 text-align: center;
-                background-color: black;
+                background-color: white;
                 width: 20px;
                 height: 20px;
                 border-radius: 50%; }
@@ -308,13 +308,13 @@ nav{
                   .juma-quiz ul .juma-choice:before {
                     opacity: 1; }
                   .juma-quiz .juma-forward {
-                    background-color: black;
+                    background-color: white;
                     border-radius: 6px;
                     display: inline;
                     padding: 10px; }
 
                     .juma-quiz .juma-progress {
-                        background-color: black;
+                        background-color: white;
                         height: 10px;}
                       .juma-quiz .juma-progress span {
                         height: 10px;
