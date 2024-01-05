@@ -673,6 +673,9 @@ a{
     margin-top: 20px;
     border-radius: 50%;
 }
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
 
 
 
