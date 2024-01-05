@@ -573,7 +573,8 @@ a{
     text-decoration: none;
     color: black;
     border: 1px solid black;
-    padding: 12px 34px; margin: 4px;
+    padding: 12px 34px; 
+    margin: 4px;
     font-size: 13px;
     background: transparent;
     position: relative;
