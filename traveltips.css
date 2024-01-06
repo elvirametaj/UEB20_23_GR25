@@ -258,3 +258,16 @@ a{
      padding: 5px;
      margin: 5px;
 }
+#submitbtn {
+    display: inline-block;
+    text-decoration: none;
+    color: #e8491d;
+    border: 1px solid #e8491d;
+    padding: 12px 24px;
+    margin: 7px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
