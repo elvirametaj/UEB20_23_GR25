@@ -271,3 +271,11 @@ a{
     cursor: pointer;
     border-radius: 5px;
 }
+#submitbtn:hover{
+    border: 1px solid #000000;
+    background: #e8491d;
+    transition: 1s;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
