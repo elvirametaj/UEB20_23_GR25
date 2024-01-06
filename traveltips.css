@@ -246,4 +246,8 @@ a{
     color: #e8491d;
     width: 100%;
 }
+#comments textarea {
+    width: 50%;
+    margin-bottom: 10px;
+}
 
