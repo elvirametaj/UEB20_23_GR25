@@ -36,8 +36,7 @@ nav img{
 }
 .nav-links{
     flex: 1;
-    align-items: center;
-    width: 100%;
+    text-align: center;
 }
 .nav-links.scrolled {
     background-color: #000000;
