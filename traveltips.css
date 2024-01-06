@@ -279,3 +279,10 @@ a{
     font-weight: bold;
     border-radius: 5px;
 }
+.ratingStars {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+  }
