@@ -448,6 +448,7 @@ a{
     border-radius: 8px;
     background-color: #685151;
     color: rgb(238, 202, 149);
+    width: 100%;
 }
 #comments textarea {
     width: 50%;
