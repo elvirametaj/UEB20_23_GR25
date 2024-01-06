@@ -251,3 +251,6 @@ a{
     margin-bottom: 10px;
 }
 
+#comments button {
+    cursor: pointer;
+}
