@@ -150,3 +150,10 @@ nav .fa{
 .col-4 img{
     width:100%;
 }
+.title{
+    text-align: center;
+    margin: 20px auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+}
