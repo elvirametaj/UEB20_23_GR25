@@ -329,3 +329,8 @@ a{
 .testimonial .col-2:hover{
     transform: translateY(-10px);
 }
+
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.801);
+}
