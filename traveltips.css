@@ -168,3 +168,8 @@ nav .fa{
     left: 50%;
     transform: translateX(-50%);
 }
+h4{
+    color: #1f1e1e;
+    font-weight: bold;
+    text-transform: uppercase;
+}
