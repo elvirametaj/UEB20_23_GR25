@@ -57,3 +57,12 @@ nav img{
     margin:auto;
     transition: 0.5s;
 } 
+.text-box{
+    width: 90%;
+    color: rgb(238, 202, 149);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
