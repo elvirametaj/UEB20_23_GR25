@@ -8,13 +8,13 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/travel.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/travel.webp);
     background-size: cover;
     background-position: center;
     position: relative;
     margin-bottom: 10px;
 }
-.sub-header {
+.sub-header.navbar {
     background-color:transparent;
     display: flex;
     flex-direction: row;
@@ -51,18 +51,10 @@ nav img{
     font-size: 13px;
     width: 100%;
 }
-.navbar ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #e8491d;
-    display: block;
-    margin:auto;
-    transition: 0.5s;
-} 
+
 .text-box{
     width: 90%;
-    color: rgb(238, 202, 149);
+    color: #f3c0b1;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,13 +67,13 @@ nav img{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: rgb(238, 202, 149);
+    color: #f3c0b1;
 }
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: rgb(238, 202, 149);
-    border: 1px solid rgb(238, 202, 149);
+    color: #f3c0b1;
+    border: 1px solid #f3c0b1;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -90,10 +82,10 @@ nav img{
     border-radius: 5px;
 }
 .hero-btn:hover{
-    border: 1px solid rgb(238, 202, 149);
-    background: rgb(238, 202, 149);
+    border: 1px solid #e8491d;
+    background: #e8491d;
     transition: 1s;
-    color: black;
+    color: rgb(32, 32, 32);
     font-weight: bold;
     border-radius: 5px;
 }
@@ -111,10 +103,10 @@ nav .fa{
     .text-box h1{
         font-size: 20px;
     }
-    .nav-links ul li{
+    .navbar ul li{
         display: block;
     }
-    .nav-links{
+    .navbar{
         position: fixed;
         background: #000000;
         height: 100vh;
@@ -132,7 +124,7 @@ nav .fa{
         font-size: 22px;
         cursor: pointer;
     }
-    nav.links ul{
+    navbar ul{
         padding: 30px;
     }
 }
@@ -148,7 +140,6 @@ nav .fa{
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-    background-image: url('img-pattern.svg');
 }
 .col-4 img{
     width:100%;
