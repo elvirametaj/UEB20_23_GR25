@@ -227,3 +227,11 @@ a{
     cursor: pointer;
 }
 
+#readMore:hover{
+    border: 1px solid white;
+    background: white;
+    transition: 1s;
+    color: black;
+    font-weight: bold;
+}
+
