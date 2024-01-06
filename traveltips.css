@@ -12,6 +12,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-bottom: 10px;
 }
 .sub-header {
     background-color:transparent;
