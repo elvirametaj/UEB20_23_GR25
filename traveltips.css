@@ -13,3 +13,9 @@
     background-position: center;
     position: relative;
 }
+.sub-header {
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
