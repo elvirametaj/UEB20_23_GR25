@@ -254,3 +254,7 @@ a{
 #comments button {
     cursor: pointer;
 }
+#commentInput {
+     padding: 5px;
+     margin: 5px;
+}
