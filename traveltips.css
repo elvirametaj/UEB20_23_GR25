@@ -32,26 +32,26 @@ nav{
 nav img{
     width: 150px;
 }
-.nav-links{
+.navbar{
     flex: 1;
     text-align: center;
 }
-.nav-links.scrolled {
+.navbar.scrolled {
     background-color: #000000;
   }
-.nav-links ul li{
+.navbar ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-.nav-links ul li a{
+.navbar ul li a{
     color: #e8491d;
     text-decoration: none;
     font-size: 13px;
     width: 100%;
 }
-.nav-links ul li::after{
+.navbar ul li::after{
     content: '';
     width: 0%;
     height: 2px;
