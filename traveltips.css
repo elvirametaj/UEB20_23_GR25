@@ -187,3 +187,20 @@ a{
     margin-block-end: 26px;
     z-index: 1;
 }
+
+.travel-card .has-before::before {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 100%;
+    background-color: #685151;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    transition: var(--transition-2);
+    transition-delay: 0;
+    z-index: -1;
+    will-change: transform;
+}
+
