@@ -235,3 +235,15 @@ a{
     font-weight: bold;
 }
 
+#feedback-section {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #e8491d;
+    width: 100%;
+}
+
