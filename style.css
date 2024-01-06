@@ -421,8 +421,8 @@ button[type="submit"] {
 /* Footer styling */
 .footer {
     height: 420px;
-    background-color: #314346;
-    color: #fff;
+    background-color: white;
+    color: black;
     padding: 40px 20px;
     text-align: center;
 }
@@ -454,7 +454,7 @@ button[type="submit"] {
 }
 
 .footer p {
-    color: #ffffff;
+    color: black;
     font-size: 1rem;
     margin-bottom: 30px;
 }
@@ -467,11 +467,11 @@ button[type="submit"] {
 }
 
 .github-links a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     margin: 5px;
     padding: 5px;
-    border: 1px solid #fff;
+    border: 1px solid #333;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
@@ -500,12 +500,15 @@ button[type="submit"] {
 
 
 .address {
-    color: #e8491d;
+    color: black;
+
 }
 
 .credit {
     margin-top: 30px;
     font-size: 0.9rem;
+    font-weight: bold;
+    color:black;
 }
 
 .credit span {
@@ -515,5 +518,3 @@ button[type="submit"] {
 .b1 {
     border: 2px solid;
 }
-
-
