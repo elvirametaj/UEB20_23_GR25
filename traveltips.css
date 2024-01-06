@@ -305,3 +305,9 @@ a{
   .ratingStars label:hover ~ label {
     color: #ffcc00;
   }
+  
+/*----------- Testimonial ------------*/
+
+.testimonial{
+    padding-top: 100px;
+}
