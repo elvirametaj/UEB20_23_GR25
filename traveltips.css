@@ -36,7 +36,7 @@ nav img{
     flex: 1;
     text-align: center;
 }
-.navbar.scrolled {
+.navbar ul li.scrolled {
     background-color: #000000;
   }
 .navbar ul li{
