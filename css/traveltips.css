@@ -128,7 +128,7 @@ nav .fa{
         z-index: 2;
         transition: 1s;
     }
-    nav .fa{
+    .navbar .fa{
         display: block;
         color: #fff;
         margin: 10px;
