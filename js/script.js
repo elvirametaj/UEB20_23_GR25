@@ -9,7 +9,7 @@ videoBtn.forEach(btn => {
     });
 });
 
-/*--- JavaScript for Toggle Menu --
+/*--- JavaScript for Toggle Menu --*/
 
  var navBar = document.getElementById("navBar");
  function showMenu(){
@@ -17,20 +17,7 @@ videoBtn.forEach(btn => {
  }
  function hideMenu(){
    navBar.style.right = "-200px";
- }*/var navBar = document.getElementById("navBar");
-
-function showMenu() {
-  navBar.style.right = "0";
-}
-
-function hideMenu() {
-  navBar.style.right = "-200px";
-}
-
-// Add this function to close the menu when a link is clicked
-function closeMenu() {
-  navBar.style.right = "-200px";
-}
+ }
 
 
 
