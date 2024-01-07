@@ -1,3 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+
 .container{
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px white;
@@ -7,13 +16,15 @@
     margin: 100px;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(360deg, transparent, #ffffff);
+   
     min-height: 100vh;
     background-color: #685151;
+    background-image: url('quiz1.jpg');
+    background-size: cover;
   }
 
   body {
-    background: url('quiz.jpg');
+    background: url('quiz1.jpg');
     background-size: cover;
 
     margin: 0;
@@ -101,7 +112,7 @@ nav{
 
               .juma-quiz ol ul li:before {
                 opacity: 0;
-                content: "?";
+                content: "✓";
                 position: absolute;
                 top: 8px;
                 left: -18px;
