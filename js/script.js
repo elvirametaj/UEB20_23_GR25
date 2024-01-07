@@ -10,7 +10,8 @@ videoBtn.forEach(btn => {
 });
 
 /*--- JavaScript for Toggle Menu --*/
-
+window.onload = function() {
+ 
  var navBar = document.getElementById("navBar");
  function showMenu(){
    navBar.style.right = "0";
@@ -18,7 +19,7 @@ videoBtn.forEach(btn => {
  function hideMenu(){
    navBar.style.right = "-200px";
  }
-
+};
 
 
 
