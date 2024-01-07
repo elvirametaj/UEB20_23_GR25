@@ -61,7 +61,7 @@ nav img{
     z-index: 1000; 
 }
 .navbar.scrolled {
-    background-color: #000000;
+    background-color: black;
     color:#e8491d;
   }
 
