@@ -163,7 +163,7 @@ nav .fa{
 }
 .title::after{
     content: '';
-    background: #e8491d;
+    background: #e91e63;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -247,7 +247,7 @@ a{
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #000000;
-    color: #e8491d;
+    color: #e91e63;
     width: 100%;
 }
 #comments textarea {
@@ -265,8 +265,8 @@ a{
 #submitbtn {
     display: inline-block;
     text-decoration: none;
-    color: #e8491d;
-    border: 1px solid #e8491d;
+    color: #e91e63;
+    border: 1px solid #e91e63;
     padding: 12px 24px;
     margin: 7px;
     font-size: 13px;
@@ -277,7 +277,7 @@ a{
 }
 #submitbtn:hover{
     border: 1px solid #000000;
-    background: #e8491d;
+    background: #e91e63;
     transition: 1s;
     color: black;
     font-weight: bold;
