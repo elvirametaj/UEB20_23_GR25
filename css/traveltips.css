@@ -36,6 +36,15 @@ nav img{
     flex: 1;
     text-align: center;
 }
+
+.container .navbar {
+    width: 100%;
+    padding: 25px 0;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .navbar.scrolled {
     background-color: #000000;
   }
