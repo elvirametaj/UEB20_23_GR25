@@ -33,7 +33,7 @@ nav img{
     width: 150px;
 }
 
-section .navbar { display: flex;}
+section.navbar { display: flex;}
 
 .navbar{
     flex: 1;
