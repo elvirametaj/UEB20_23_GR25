@@ -17,18 +17,19 @@ videoBtn.forEach(btn => {
  }
  function hideMenu(){
    navBar.style.right = "-200px";
- }*/
- function showMenu() {
-  document.getElementById('navBar').classList.add('show');
+ }*/var navBar = document.getElementById("navBar");
+
+function showMenu() {
+  navBar.style.right = "0";
 }
 
 function hideMenu() {
-  document.getElementById('navBar').classList.remove('show');
+  navBar.style.right = "-200px";
 }
 
 // Add this function to close the menu when a link is clicked
 function closeMenu() {
-  document.getElementById('navBar').classList.remove('show');
+  navBar.style.right = "-200px";
 }
 
 
