@@ -4,16 +4,16 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     justify-content: space-between;
-}
+}/*
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/images/travel.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/travel.webp');
     background-size: cover;
     background-position: center;
     position: relative;
     margin-bottom: 10px; 
-}
+}*/
 .background-img {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/travel.webp'); 
     background-size: cover;
