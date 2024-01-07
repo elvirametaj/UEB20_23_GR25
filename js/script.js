@@ -11,7 +11,7 @@ videoBtn.forEach(btn => {
 
 /*--- JavaScript for Toggle Menu --*/
 
- var navLinks = document.getElementById("navBar");
+ var navBar = document.getElementById("navBar");
  function showMenu(){
    navBar.style.right = "0";
  }
