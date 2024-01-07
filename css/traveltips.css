@@ -335,11 +335,11 @@ a{
 
 .fa.fa-quote-left{
     font-size: 34px;
-    color: rgba(0, 0, 0, 0.801);
+    color: #000000;
 }
 
-.fa.fa-star { color: rgb(219, 219, 41);}
-.fa.fa-star-o { color: rgb(219, 219, 41);}
+.fa.fa-star { color: #e8491d;}
+.fa.fa-star-o { color: #e8491d;}
 
 .col-2 p{
     font-size: 12px;
