@@ -82,10 +82,10 @@ nav img{
     border-radius: 5px;
 }
 .hero-btn:hover{
-    border: 1px solid black;
+    border: 1px solid #e8491d;
     background: #e8491d;
     transition: 1s;
-    color: black;
+    color: rgb(32, 32, 32);
     font-weight: bold;
     border-radius: 5px;
 }
