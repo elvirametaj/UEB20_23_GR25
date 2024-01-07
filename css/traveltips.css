@@ -17,7 +17,7 @@
 }
 
 .brand{
-    color: #000;
+    color: #f3c0b1;
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -64,14 +64,14 @@ nav img{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
-}
+}/*
 .navbar ul li a{
     color: #e8491d;
     text-decoration: none;
     font-size: 13px;
     width: 100%;
 }
-
+*/
 .text-box{
     width: 90%;
     color: #f3c0b1;
@@ -102,8 +102,8 @@ nav img{
     border-radius: 5px;
 }
 .hero-btn:hover{
-    border: 1px solid #e8491d;
-    background: #e8491d;
+    border: 1px solid #f3c0b1;
+    background: #f3c0b1;
     transition: 1s;
     color: rgb(32, 32, 32);
     font-weight: bold;
