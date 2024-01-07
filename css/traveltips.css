@@ -14,12 +14,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column; 
-}/*
-.sub-header.navbar {
-    background-color:transparent;
-    display: flex;
-    flex-direction: row;
-}*/
+}
+
 header .logo {
     display: flex;
     justify-content: center;
