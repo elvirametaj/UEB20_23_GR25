@@ -22,7 +22,7 @@
     font-weight: 800;
     text-transform: uppercase;
     text-decoration: none;
-    margin: auto;
+    margin-right: 10px;
 }
 nav{
     display: flex;
