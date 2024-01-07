@@ -116,7 +116,7 @@ nav .fa{
     .text-box h1{
         font-size: 20px;
     }
-    .navbar ul li{
+    .navbar {
         display: block;
     }
     .navbar{
@@ -137,7 +137,7 @@ nav .fa{
         font-size: 22px;
         cursor: pointer;
     }
-    navbar ul{
+    navbar {
         padding: 30px;
     }
 }
