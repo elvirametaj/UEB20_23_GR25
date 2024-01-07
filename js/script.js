@@ -13,10 +13,10 @@ videoBtn.forEach(btn => {
 
  var navLinks = document.getElementById("navBar");
  function showMenu(){
-   navLinks.style.right = "0";
+   navBar.style.right = "0";
  }
  function hideMenu(){
-   navLinks.style.right = "-200px";
+   navBar.style.right = "-200px";
  }
 
 
