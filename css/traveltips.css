@@ -58,13 +58,13 @@ nav img{
 }
 .navbar.scrolled {
     background-color: #000000;
-  }
+  }/*
 .navbar ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
-}
+}*/
 .text-box{
     width: 90%;
     color: #f3c0b1;
