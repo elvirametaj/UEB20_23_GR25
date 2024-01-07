@@ -104,21 +104,15 @@ nav img{
 nav .fa{
     display: none;
 }
-.sub-header{
-    width: 100%;
-    background-size: cover;
-    background-color:  #000000;
-    background-position: center;
-    position: relative;
-}
 @media(max-width:700px){
     .text-box h1{
         font-size: 20px;
     }
-    .navbar{
+
+    .navbar {
         display: block;
         position: fixed;
-        background: #000000;
+        background: black;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -127,16 +121,16 @@ nav .fa{
         z-index: 2;
         transition: 1s;
     }
-    .navbar .fa{
+    nav .fa{
         display: block;
         color: #fff;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
-    }
+    }/*
     nav {
         padding: 30px;
-    }
+    }*/
 }
 
 .row{
