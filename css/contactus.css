@@ -65,3 +65,9 @@ button[type="submit"] {
 {
     margin-bottom:2%;
 }
+
+.imag img{
+    width: 300px; 
+    height: auto; 
+    
+}
