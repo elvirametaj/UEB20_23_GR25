@@ -24,6 +24,7 @@
     text-decoration: none;
     margin: 10px;
 }
+.brand.scrolled { color: #e8491d;}
 nav{
     display: flex;
     padding: 2% 6%;
