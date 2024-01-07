@@ -51,15 +51,7 @@ nav img{
     font-size: 13px;
     width: 100%;
 }
-.navbar ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #e8491d;
-    display: block;
-    margin:auto;
-    transition: 0.5s;
-} 
+
 .text-box{
     width: 90%;
     color: rgb(238, 202, 149);
