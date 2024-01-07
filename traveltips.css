@@ -39,19 +39,19 @@ nav img{
 .navbar.scrolled {
     background-color: #000000;
   }
-.navbar ul li{
+.navbar {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-.navbar ul li a{
+.navbar a{
     color: #e8491d;
     text-decoration: none;
     font-size: 13px;
     width: 100%;
 }
-.navbar ul li::after{
+.navbar::after{
     content: '';
     width: 0%;
     height: 2px;
