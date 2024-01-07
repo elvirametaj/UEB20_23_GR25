@@ -14,7 +14,7 @@
     position: relative;
     margin-bottom: 10px;
 }
-.sub-header .navbar {
+.sub-header.navbar {
     background-color:transparent;
     display: flex;
     flex-direction: row;
