@@ -36,7 +36,15 @@ nav img{
     flex: 1;
     text-align: center;
 }
-
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
 .container .navbar {
     width: 100%;
     padding: 25px 0;
