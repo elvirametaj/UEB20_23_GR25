@@ -7,31 +7,15 @@
 }
 
 
-.container{
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-    text-shadow: 1px 1px white;
-    padding: 3rem;
-    text-shadow: 0 1px #00000010;
-    width: 100%;
-    margin: 100px;
-    display: flex;
-    flex-direction: column;
-   
-    min-height: 100vh;
-    background-color: #685151;
-    background-image: url('quiz1.jpg');
-    background-size: cover;
-  }
+
 
   body {
-    background: url('quiz1.jpg');
+    font-family: sans-serif;
+    background-image: url('quiz1.jpg');
     background-size: cover;
-
-    margin: 0;
-    padding: 0;
-    font-family:'Open Sans', sans-serif;
-    font-weight: 100;
-    line-height: 1.7rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 
   }
 
@@ -91,7 +75,15 @@ nav{
     font-weight: normal;
     font-size: 20px;
     padding: 2vw 0 1vw 0}
-
+    
+    .juma-quiz{
+      margin: 3rem auto;
+      width: 90vw;
+      padding: 2rem;
+      background: rgba(169, 228, 228, 0.45);
+      cursor: default;
+      border-radius: 1rem;
+    }
 
     .juma-quiz ul {
         padding: 5px 0 5px 10px; }
