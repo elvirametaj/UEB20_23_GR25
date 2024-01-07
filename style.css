@@ -73,14 +73,19 @@ section{
 
 }
 
-.home::before{
-    z-index: 777;
+.home::after{
     content: '';
-    position: absolute;
-    width: 100%;
+    width: 0%;
     height: 100%;
+    display:block;
+    background: black;
     top: 0;
     left:0;
+    margin:auto;
+    transition: 0.5s;
+}
+.home:hover:after{
+    width:100%;
 }
 
 .home .content{
@@ -111,6 +116,7 @@ section{
     
     
 }
+
 
 .home .content p{
     position:absolute;
@@ -484,7 +490,7 @@ button[type="submit"] {
 .box h3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: #e8491d;
+    color: #314346;
 }
 
 .box a i {
@@ -512,7 +518,7 @@ button[type="submit"] {
 }
 
 .credit span {
-    color: #e8491d;
+    color: #314346;
 }
 
 .b1 {
