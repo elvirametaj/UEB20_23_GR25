@@ -15,7 +15,7 @@
     margin-bottom: 10px; 
 }
 .background-img {
-    background-image: url('/images/travel.webp'); 
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/travel.webp'); 
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh; 
