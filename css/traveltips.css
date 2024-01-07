@@ -54,7 +54,7 @@ nav img{
 
 .text-box{
     width: 90%;
-    color: rgb(238, 202, 149);
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -67,13 +67,13 @@ nav img{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: rgb(238, 202, 149);
+    color: white;
 }
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: rgb(238, 202, 149);
-    border: 1px solid rgb(238, 202, 149);
+    color: white;
+    border: 1px solid white;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -82,8 +82,8 @@ nav img{
     border-radius: 5px;
 }
 .hero-btn:hover{
-    border: 1px solid rgb(238, 202, 149);
-    background: rgb(238, 202, 149);
+    border: 1px solid white;
+    background: white;
     transition: 1s;
     color: black;
     font-weight: bold;
