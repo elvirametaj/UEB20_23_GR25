@@ -22,11 +22,11 @@ videoBtn.forEach(btn => {
 
 /*-- JS For Rating ---*/
 
-  const ratingInputs = document.querySelectorAll('.rating input');
+  const ratingInputs = document.querySelectorAll('.ratingStars input');
 
   ratingInputs.forEach(input => {
     input.addEventListener('change', () => {
-      const rating = input.value;
+      const ratingStars = input.value;
       alert(`You rated ${ratingStars} stars!`);
     });
   });
