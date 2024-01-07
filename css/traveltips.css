@@ -14,6 +14,16 @@
     position: relative;
     margin-bottom: 10px;
 }
+.background-img {
+    background-image: url('/images/travel.webp'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
 .sub-header.navbar {
     background-color:transparent;
     display: flex;
