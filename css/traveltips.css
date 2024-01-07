@@ -54,7 +54,7 @@ nav img{
 
 .text-box{
     width: 90%;
-    color: white;
+    color: #e7a795;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -67,7 +67,7 @@ nav img{
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #df8d77;
+    color: #e7a795;
 }
 .hero-btn{
     display: inline-block;
