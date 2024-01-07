@@ -15,9 +15,17 @@
     margin-bottom: 10px;
 }
 .sub-header {
+    /*
     background-color:transparent;
     display: flex;
     flex-direction: row;
+    */
+    width: 100%;
+    padding: 25px 0;
+    font-family: 'Tahoma', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 header .logo {
     display: flex;
