@@ -45,6 +45,14 @@ nav img{
     align-items: center;
     justify-content: space-between;
 }
+
+.navbar {
+    background-color: transparent;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+}
 .navbar.scrolled {
     background-color: #000000;
   }
