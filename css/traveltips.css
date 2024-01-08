@@ -144,10 +144,10 @@ section{
     color: black;
     font-weight: bold;
     transition: 0.5s;
-   
-        background: var(--clr);
-        letter-spacing: 0.25em;
-        box-shadow: 0 0 35px var(--clr);
+    text-transform: uppercase;
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
 }
 
 .home .content .btn:before{
