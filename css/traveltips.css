@@ -344,7 +344,7 @@ a{
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #000000;
-    color: #e91e63;
+    color: #e8491d;
     width: 100%;
 }
 #comments textarea {
@@ -362,8 +362,8 @@ a{
 #submitbtn {
     display: inline-block;
     text-decoration: none;
-    color: #e91e63;
-    border: 1px solid #e91e63;
+    color: #e8491d;
+    border: 1px solid #e8491d;
     padding: 12px 24px;
     margin: 7px;
     font-size: 13px;
@@ -374,7 +374,7 @@ a{
 }
 #submitbtn:hover{
     border: 1px solid #000000;
-    background: #e91e63;
+    background: #e8491d;
     transition: 1s;
     color: black;
     font-weight: bold;
