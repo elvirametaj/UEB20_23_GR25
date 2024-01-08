@@ -116,7 +116,8 @@ nav .fa{
         font-size: 20px;
     }
 
-    .navbar {
+    .navbar a {
+        display: block;
         position: fixed;
         background: #000000;
         height: 100vh;
