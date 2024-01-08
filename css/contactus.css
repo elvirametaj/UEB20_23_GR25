@@ -1,4 +1,12 @@
+body{
+background-image: url('./images/travel.jpg');
+
+}
+
+
+
 #contact-us-section{
+
     padding-top:15%;
 }
 .contact-from-header{
@@ -66,8 +74,3 @@ button[type="submit"] {
     margin-bottom:2%;
 }
 
-.viola img{
-    width: 600px; 
-    height: 500px; 
-    
-}
