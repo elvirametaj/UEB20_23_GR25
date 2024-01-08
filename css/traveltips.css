@@ -140,7 +140,6 @@ section{
 }
 
 .home .content .btn:hover{
-    background-color: #e8491d;
     color: black;
     font-weight: bold;
     transition: 0.5s;
