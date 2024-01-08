@@ -16,7 +16,16 @@
     margin-top: 25px;
     margin-bottom: 20px;
 }
-
+.background-img {
+    background-image: url('/images/offSeason.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
