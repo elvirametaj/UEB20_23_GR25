@@ -19,6 +19,23 @@
 
   }
 
+
+  header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
   .nav-list{
     list-style-type: none; 
     padding: 1.4vw;
@@ -42,17 +59,7 @@ nav ul li a{
     padding-top: 150px; /* Adjust as needed based on your design */
 }
 
-nav{
-    width: 100vw;
-    background-color: rgb(33, 34, 34);
-    text-align: center;
-  }
 
-  nav{
-    width: 100vw;
-    background-color: rgb(33, 34, 34);
-    text-align: center;
-  }
 
 
   h1{
