@@ -1,9 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
 }
 /*
 #contact-us-section{
