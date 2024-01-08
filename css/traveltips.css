@@ -2,9 +2,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
 }
 .background-img {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/travel.webp'); 
