@@ -1,14 +1,14 @@
-<<<<<<< HEAD
-body{
-background-image: url('./images/quiz1.jpg');
 
-=======
+body{
+background-image: url('images/quiz1.jpg');
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
->>>>>>> bf9b0bd929d94b709223626dea950bdf79e8e502
+
 }
 
 
