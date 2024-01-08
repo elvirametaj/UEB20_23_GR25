@@ -677,3 +677,16 @@ a{
     height: 350px;
     padding: 20px;
 }
+
+.footer-new .footer-section {
+    h2 {
+        padding-bottom: 20px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        color: #e8491d;
+    }
+
+    p {
+        font-weight: 300;
+    }
+}
