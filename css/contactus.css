@@ -86,6 +86,7 @@ button[type="submit"] {
 }*/
 
 
+
 .background-img {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/images/offSeason.jpg'); 
     background-size: cover;
@@ -96,6 +97,71 @@ button[type="submit"] {
     justify-content: center;
     flex-direction: column; 
 }
+
+header{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+    transition: 0.5s ease;
+    backdrop-filter: blur(4px);
+}
+.navigation-items.scrolled {
+    color: black;
+}
+header .brand{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header.navigation{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+header .navigation .navigation-items a{
+    position: relative;
+    color:white;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration:none;
+    padding: 0 15px;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:before{
+    border-left: 10px solid black;
+
+
+}
+
+header .navigation .navigation-items a:hover {
+    text-decoration: underline;
+    top: -2px;
+}
+
+section{
+   
+    padding: 0 150px;
+}
+
+
+
+
+
+
+
+
+/*
 
 .brand{
     color: #f3c0b1;
@@ -162,7 +228,7 @@ nav img{
     font-size: 14px;
     color: white;
 }
-
+*/
 .contact-us{
 width: 80%;
 margin: auto;
