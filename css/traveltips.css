@@ -104,13 +104,6 @@ nav img{
 nav .fa{
     display: none;
 }
-.sub-header{
-    width: 100%;
-    background-size: cover;
-    background-color:  #000000;
-    background-position: center;
-    position: relative;
-}
 @media(max-width:700px){
     .text-box h1{
         font-size: 20px;
