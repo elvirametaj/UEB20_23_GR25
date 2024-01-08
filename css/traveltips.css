@@ -140,7 +140,7 @@ section{
 }
 
 .home .content .btn:hover{
-    color: black;
+    color: white;
     font-weight: bold;
     transition: 0.5s;
     text-transform: uppercase;
