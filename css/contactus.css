@@ -194,10 +194,23 @@ section{
     display:block;
 }
 
+.home .content h1{
+    position:absolute;
+    top: 17%;
+    left:27%;
+    font-size: 4em;
+    font-weight: bold;
+    font-style:italic;
+    text-shadow: 2px 2px 4px rgba(161, 67, 67, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 250px;
+    margin-bottom: 20px;
+}
 .home .content p{
     position:absolute;
-    left:25%;
-    top:45%;
+    left:34%;
+    top:50%;
         color: #ffffff;
         font-size: 20px;
         margin-bottom: 20px;
