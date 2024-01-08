@@ -690,3 +690,17 @@ a{
         font-weight: 300;
     }
 }
+
+.footer-new .footer-section, .footer-about {
+    a i:link {
+        text-decoration: none;
+        color: black;
+    }
+
+    img {
+        height: 200px;
+        width: auto;
+        object-fit: cover;
+        margin-top: 30px;
+    }
+}
