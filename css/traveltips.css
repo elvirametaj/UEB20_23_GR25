@@ -288,18 +288,18 @@ section{
 }
 
 .row{
-    display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-around;
 }
-.col-4{
+.col-2{
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
 }
-.col-4 img{
+.col-2 img{
     width:100%;
 }
 .title{
@@ -325,7 +325,7 @@ h4{
     font-weight: bold;
     text-transform: uppercase;
 }
-.h4 p{
+ p{
     font-size: 14px;
 }
 a{
@@ -339,8 +339,14 @@ a{
     padding-block: 30px;
     margin-block-end: 26px;
     z-index: 1;
-}
 
+}
+.card-banner img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+}
 .travel-card .has-before::before {
     top: 0;
     left: 50%;
@@ -465,7 +471,7 @@ a{
     padding-top: 100px;
 }
 
-.testimonial .col-2{
+.testimonial .col-testimonial{
     text-align: center;
     padding: 40px 20px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
@@ -473,7 +479,7 @@ a{
     transition: transform 0.5s;
 }
 
-.testimonial .col-2 img{
+.testimonial .col-testimonial img{
     width: 50px;
     margin-top: 20px;
     border-radius: 50%;
@@ -491,13 +497,13 @@ a{
 .fa.fa-star { color: #e8491d;}
 .fa.fa-star-o { color: #e8491d;}
 
-.col-2 p{
+.col-testimonial p{
     font-size: 12px;
     margin: 12px 0;
     color: #777;
 }
 
-.testimonial .col-2 h3{
+.testimonial .col-testimonial h3{
     font-weight: 600;
     color: #555;
     font-size: 16px;
