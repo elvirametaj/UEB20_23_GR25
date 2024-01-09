@@ -485,7 +485,7 @@ a{
     border-radius: 50%;
 }
 
-.testimonial .col-2:hover{
+.testimonial .col-testimonial:hover{
     transform: translateY(-10px);
 }
 
