@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
 header{
     z-index: 999;
     position: fixed;
@@ -19,11 +16,12 @@ header{
     padding: 15px 150px;
     transition: 0.5s ease;
     backdrop-filter: blur(4px);
-
 }
-
+.navigation-items.scrolled {
+    color: rgb(223, 217, 217);
+}
 header .brand{
-    color: #ffffff;
+    color: #efece8;
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -33,12 +31,12 @@ header .brand{
 header.navigation{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid rgb(135, 132, 132);
 }
 
 header .navigation .navigation-items a{
     position: relative;
-    color:white;
+    color:#141110;
     font-size: 1.5em;
     font-weight: 500;
     text-decoration:none;
@@ -47,7 +45,7 @@ header .navigation .navigation-items a{
 }
 
 header .navigation .navigation-items a:before{
-    border-left: 10px solid black;
+    border-left: 10px solid rgb(237, 233, 233);
 
 
 }
@@ -84,6 +82,7 @@ section{
     margin:auto;
     transition: 0.5s;
 }
+
 .home:hover:after{
     width:100%;
 }
@@ -101,32 +100,14 @@ section{
     display:block;
 }
 
-.home .content h2{
-    position:absolute;
-    top: 17%;
-    left:38%;
-    font-size: 4em;
-    font-weight: bold;
-    font-style:italic;
-    text-shadow: 2px 2px 4px rgba(161, 67, 67, 0.5);
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    line-height: 250px;
-    margin-bottom: 20px;
-
-
-}
-
-
 .home .content p{
     position:absolute;
     left:25%;
     top:45%;
         color: #ffffff;
-        font-size: 1.7rem;
+        font-size: 20px;
         margin-bottom: 20px;
         margin-top:2px;
-
     }
 
 
@@ -231,6 +212,68 @@ section{
 }
 
 
+.home .media-icons{
+    z-index: 888;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+.home .media-icons a{
+    color: #fff;
+    font-size: 1.6em;
+    transition: 0.3s ease;
+}
+.home .media-icons a:not(:last-child){
+    margin-bottom: 20px;
+}
+.home .media-icons a:hover{
+    transform: scale(1.3);
+}
+
+
+.home img{
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider-navigation{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 500px;
+}
+.slider-navigation .nav-btn{
+    width: 12px;
+    height: 12px;
+    margin-top: 100px;
+    margin-left: 15px;
+    background: white;
+    border-radius:50%;
+    cursor:pointer;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease;
+}
+
+.slider-navigation .nav-btn .active {
+    color: black;
+    border: 1px solid black;
+}
+
+.slider-navigation .nav-btn:not(:last-child){
+    margin-right: 20px;
+}
+.slider-navigation .nav-btn:hover{
+    transform: scale(1.2);
+}
+
 
 
 
@@ -267,12 +310,13 @@ section{
         object-fit: cover;
     }
     .slider-navigation{
-        position: relative;
-        width: 100%;
+        z-index: 888;
+        position:relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 500px;
+        transform: translateY(80px);
+        margin-bottom: 12px;
     }
     .slider-navigation .nav-btn{
         width: 12px;
@@ -282,15 +326,9 @@ section{
         background: white;
         border-radius:50%;
         cursor:pointer;
-        box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 2px rga(255, 255, 255, 0.5);
         transition: 0.3s ease;
     }
-
-    .slider-navigation .nav-btn .active {
-        color: black;
-        border: 1px solid black;
-    }
-
     .slider-navigation .nav-btn:not(:last-child){
         margin-right: 20px;
     }
@@ -373,7 +411,7 @@ section{
 
 
 
-/*Quiz css */
+
 
 
 
@@ -459,7 +497,6 @@ section{
     text-decoration: none;
 }
 
-
 .address {
     color: black;
 
@@ -531,7 +568,7 @@ section{
     flex-direction: column;
     list-style: none;
     font-weight: 400;
-    
+
     li {
         display: flex;
         align-items: center;
@@ -545,7 +582,7 @@ section{
             text-decoration: none;
             text-transform: uppercase;
         }
-
+        
         a:hover {
             right: -4px;
         }
@@ -562,4 +599,3 @@ section{
         border: 1px solid;
     }
 }
-
