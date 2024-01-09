@@ -58,7 +58,7 @@ header .navigation .navigation-items a:hover {
   background-blend-mode: overlay;
   display: grid;
   place-items: center;
-  min-height: 600px;
+  min-height: 800px;
   text-align: center;
   padding-top: 125px;
 }
