@@ -518,6 +518,13 @@ section{
         box-shadow: 2px 2px 5px #00000056;
     }
     
+    .ctn{
+        padding: 8px 15px;
+        background: #fc036b;
+        border-radius: 30px;
+        color:whitesmoke
+    }
+    
     
     /*footer*/
     * {
