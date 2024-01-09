@@ -8,10 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./css/quiz.css">
 	<link rel="stylesheet" href="style.css">
-	<style type="text/css">
-body{
-	background-image: url('./images/world.jpg');
-}
+	<style>
+		 body {
+      margin: 0;
+      padding: 0;
+    }
+	#video-background {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: -1;
+	  }
 	</style>
 
 	
@@ -19,44 +30,29 @@ body{
 <body>
     <!-- header -->
 	<header>
-		<a href="a" class="brand">NOVA VIA</a>
-		<div class="menu-btn"></div>
-		<div class="navigation" >
-			<div class="navigation-items">
-				<a href="home.html">Home</a>
-				<a href="quiz.html">Quiz</a>
-				<a href="guides.html">Your Guide</a>
-				<a href="traveltips.html">Travel Tips</a>
-				<a href="contactus.html">Contact Us</a>
-				<a href="aboutus.html">About us</a>
-			</div>
-		</div>
-	  </header>
-	  <section class="home" id="home">
-		<img class="background-img" id="img" >
+        <a href="a" class="brand">NOVA VIA</a>
+        <div class="menu-btn"></div>
+        <div class="navigation" >
+            <div class="navigation-items">
+                <a href="home.html">Home</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="guides.html">Your Guide</a>
+                <a href="traveltips.html">Travel Tips</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="aboutus.html">About us</a>
+            </div>
+        </div>
+      </header>
+
+
 	  
-		<div class="content active">
-		   
-			<p>Travelling - it leaves you speechless, then turns you into a storyteller . . .</p>
-			<a href="tips.html" style="--clr: #e8491d" class="btn"><span>Click Here!</span><i></i></a>
-		</div>
 	  
-	  <div class="media-icons">
-			<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-			<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-			<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+	  <video autoplay muted loop id="video-background">
+		<source src="./images/timeLapsse1.mp4" type="video/mp4">
+		quiz
+	  </video>
 	  
-		</div>
-	  </section>
-	  
-	<section class="banner"></section>
-	<script type="text/javascript">
-window.addEventListener("scroll", function(){
-var header=document.querySelector("header");
-header.classList.toggle("sticky", window.scrolly > 0);
-})
-</script>
-    <!-- header -->
+	
     
 
 
@@ -157,35 +153,67 @@ header.classList.toggle("sticky", window.scrolly > 0);
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 	<!-- footer -->
-<section class="footer">
-    <div class="box-container">
-        <div class="footer-logo">
-            <img src="images/logo.png"
-                 alt="Logo Image">
-        </div>
+ <!-- footer -->
+ <div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-xs-12">
+				<div class="first">
+					<h4>My Skills</h4>
+					<p> Analytical Skills</p>
+					<p> Problem-solving skills</p>
+					<p> Critical-thinking skills</p>
+					<p> Detail-oriented</p>
+					<p> Multitasking</p>
+					<p> Self-motivated</p>
+				</div>
+			</div>
 
-		<div class="box">
-            <h3>About us</h3>
-            <address>
-                Adresa: Bregu i Diellit, Prishtine, Kosove
-            </address>
-            <p>Contact us at: <a href="mailto:novavia@gmail.com"><i>novavia@gmail.com</i></a></p>
-        </div>
+			<div class="col-md-4 col-xs-12">
+				<div class="second">
+					<h4> Navigate</h4>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
 
-		<div class="box">
-            <h3>Follow us</h3>
-            <div class="github-links">
-                <a href="https://www.github.com" target="_blank">Github-Elvira Metaj</a>
-                <a href="https://www.github.com" target="_blank">Github-Elisa Berisha</a>
-                <a href="https://www.github.com" target="_blank">Github-Elisa Gashi</a>
-                <a href="https://www.github.com" target="_blank">Github-Edison Hajdari</a>
-                <a href="https://www.github.com" target="_blank">Github-Viole Veselaj</a>
-            </div>
-        </div>
-    </div>
-	<h1 class="credit"> Created by <span> Grupi 25 </span> | All rights reserved! </h1>
-</section>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="js/script.js"></script>
+			<div class="col-md-4 col-xs-12">
+				<div class="third">
+					<h4> Contact</h4>
+					<ul>
+						<li>Andreea Mihaela Bunget </li>
+
+
+					  <li><i class="far fa-envelope"></i> andreea@andreeabunget.co.uk</li>
+						<li><i class="far fa-envelope"></i> email@yahoo.com</li>
+
+
+					  <li><i class="fas fa-map-marker-alt"></i> London, UK </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="line"></div>
+				<div class="second2">
+					<a href="https://codepen.io/AndreeaBunget" target="_blank"> <i class="fab fa-codepen fa-2x margin"></i></a>
+					<a href="https://github.com/WebDeveloperCodeRep" target="_blank"> <i class="fab fa-github fa-2x margin"></i></a>
+					<a href="https://www.linkedin.com/in/andreea-mihaela-bunget-a4248812b/" target="_blank"> <i class="fab fa-linkedin fa-2x margin"></i></a>
+					<a href="https://www.youtube.com/channel/UCX674BUbomzBCakbb75lhfA?view_as=subscriber" target="_blank"><i class="fab fa-youtube fa-2x margin" ></i></a>
+
+				</div>
+
+			</div>
+		</div>
+		</div>
+</div>
+
 </body>
 </html>
