@@ -213,6 +213,11 @@
         </div>
       </div>
     </div>
-    
+    <script>
+      function bookNow(location , price) {
+        
+          window.location.href = `/booking.html?location=${encodeURIComponent(location , price)}`;
+      }
+  </script>
 </body>
 </html>
