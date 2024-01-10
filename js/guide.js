@@ -55,8 +55,15 @@ const locations = [
     return cardDiv;
   }
 
-  const locationContainer = document.getElementById('locationContainer');
-  locations.forEach(location => {
-    const card = createCard(location);
-    locationContainer.appendChild(card);
+  document.addEventListener('DOMContentLoaded', function() {
+    const locationContainer = document.getElementById('locationContainer');
+
+    if (locationContainer) {
+      locations.forEach(location => {
+        const card = createCard(location);
+        locationContainer.appendChild(card);
+      });
+    } else {
+      console.error('Element with id "locationContainer" not found.');
+    }
   });
