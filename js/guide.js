@@ -1,13 +1,13 @@
 const locations = [
     {
-      image: '/images/newyorkimage.jpeg',
-      tag: 'City',
-      name: 'NEW YORK',
+      image: '/images/bali.jpeg',
+      tag: 'Nature',
+      name: 'Bali Indonesia',
       description: 'New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park.'
       ,price:550
     },
     {
-      image: '/images/lakeimage.jpg',
+      image: '/images/sydney.webp',
       tag: 'Nature',
       name: 'Lake Lucerne',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!'
@@ -19,7 +19,8 @@ const locations = [
       name: 'Egyptian pyramids',
       description: 'The Giza pyramid complex in Egypt is home to the Great Pyramid, the Pyramid of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx. All were built during the Fourth Dynasty of the Old Kingdom of ancient Egypt, between c. 2600 – c. 2500 BC.'
       ,price:650
-    }
+    },
+    
   ];
 
 
@@ -33,6 +34,8 @@ const locations = [
     const image = document.createElement('img');
     image.src = location.image;
     image.alt = 'card__image';
+    image.width = 600; 
+    image.height = 200; 
 
     const cardBodyDiv = document.createElement('div');
     cardBodyDiv.className = 'card__body';
