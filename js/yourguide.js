@@ -31,7 +31,7 @@ window.addEventListener('load', function () {
     var heroElement = document.getElementById('home');
     var shortDescriptionElement = document.getElementById('shortdescription');
     var imageRowElement = document.getElementById('imageRow');
-    
+
     if (selectedCountry && countryData[selectedCountry]) {
         var country = countryData[selectedCountry];
         countryNameElement.textContent = country.name;
@@ -41,6 +41,22 @@ window.addEventListener('load', function () {
         heroElement.style.backgroundImage = 'url(' + country.imagescr + ')';
         heroElement.style.backgroundSize = 'cover';
 
+        country.images.forEach(function (imagePath) {
+            var cardHtml = `
+                <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 500px; height: 500px;">
+                        <img src="${imagePath}" class="card-img-top" style="height: 300px; object-fit: cover;" alt="Image">
+                        <div class="card-body">
+                            <!-- You can add additional content or captions here -->
+                        </div>
+                    </div>
+                </div>
+            `;
+            // Append each card to the row
+            var cardElement = document.createElement('div');
+            cardElement.innerHTML = cardHtml;
+            imageRowElement.appendChild(cardElement.firstChild);
+        });
     } else {
         countryNameElement.textContent = 'Country information not available.';
         countryDescriptionElement.textContent = '';
