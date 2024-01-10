@@ -29,6 +29,8 @@ window.addEventListener('load', function () {
         countryDescriptionElement.textContent = country.description;
 
         heroElement.style.backgroundImage = 'url(' + country.imagescr + ')';
+        heroElement.style.backgroundSize = 'cover';
+
     } else {
         countryNameElement.textContent = 'Country information not available.';
         countryDescriptionElement.textContent = '';

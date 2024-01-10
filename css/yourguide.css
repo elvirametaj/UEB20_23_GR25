@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 header{
     z-index: 999;
     position: fixed;
@@ -61,13 +64,13 @@ header{
   }
   
   .hero-title {
-    color: white;
-    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
     margin-bottom: 20px; }
   
   .hero-text {
-    color: white;
-    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
     margin-bottom: 40px;
   }
   
