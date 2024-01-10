@@ -47,3 +47,39 @@ header{
     top: -2px;
   }
   
+  .hero {
+    background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    background-blend-mode: overlay;
+    display: grid;
+    place-items: center;
+    min-height: 800px;
+    text-align: center;
+    padding-top: 125px;
+  }
+  
+  .hero-title {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px; }
+  
+  .hero-text {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .container{
+    display: flex;
+  }
