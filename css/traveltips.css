@@ -465,7 +465,7 @@ a{
     padding-top: 100px;
 }
 
-.testimonial .col-2{
+.testimonial .col-testimonial{
     text-align: center;
     padding: 40px 20px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
@@ -473,13 +473,13 @@ a{
     transition: transform 0.5s;
 }
 
-.testimonial .col-2 img{
+.testimonial .col-testimonial img{
     width: 50px;
     margin-top: 20px;
     border-radius: 50%;
 }
 
-.testimonial .col-2:hover{
+.testimonial .col-testimonial:hover{
     transform: translateY(-10px);
 }
 
@@ -491,13 +491,13 @@ a{
 .fa.fa-star { color: #e8491d;}
 .fa.fa-star-o { color: #e8491d;}
 
-.col-2 p{
+.col-testimonial p{
     font-size: 12px;
     margin: 12px 0;
     color: #777;
 }
 
-.testimonial .col-2 h3{
+.testimonial .col-testimonial h3{
     font-weight: 600;
     color: #555;
     font-size: 16px;
