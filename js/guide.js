@@ -72,7 +72,7 @@ const locations = [
     cardDiv.appendChild(cardFooter);
 
     button.addEventListener('click', function() {
-      openModal(location.name, location.description, location.price);
+      openModal(location.name, location.description, location.price , location.image);
     });
 
     return cardDiv;
@@ -98,6 +98,8 @@ const locations = [
     const modalDescription = document.getElementById('modalDescription');
     const modalPrice = document.getElementById('modalPrice');
     const modalImage = document.getElementById('modalImage');
+
+    console.log(image);
 
     modalTitle.textContent = title;
     modalDescription.textContent = description;
