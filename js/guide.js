@@ -37,6 +37,9 @@ const locations = [
     const cardBodyDiv = document.createElement('div');
     cardBodyDiv.className = 'card__body';
 
+    const cardFooter = document.createElement('div');
+    cardFooter.className = 'card__footer';
+
     const tagSpan = document.createElement('span');
     tagSpan.className = `tag tag-${location.tag.toLowerCase()}`;
     tagSpan.textContent = location.tag;
@@ -48,16 +51,17 @@ const locations = [
     descriptionParagraph.textContent = location.description;
 
     const price = document.createElement('h2');
-    price.textContent = location.price;
+    price.textContent = location.price + '$';
 
     cardHeaderDiv.appendChild(image);
     cardBodyDiv.appendChild(tagSpan);
     cardBodyDiv.appendChild(nameHeading);
     cardBodyDiv.appendChild(descriptionParagraph);
-    cardDiv.appendChild(price);
+    cardFooter.appendChild(price);
 
     cardDiv.appendChild(cardHeaderDiv);
     cardDiv.appendChild(cardBodyDiv);
+    cardDiv.appendChild(cardFooter);
 
     return cardDiv;
   }
