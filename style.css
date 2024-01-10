@@ -399,12 +399,14 @@ section{
         align-items: center;
         width: 100%;
         justify-content: space-between;
-        
-    
     }
-    
+    .line {
+        margin: 0 auto;
+    }
     .row .col img{
         margin: 0 auto;
+        margin-left: 40px;
+        margin-right: 40px;
         display: flex;
         width: 300px;
         height: 300px;
@@ -423,6 +425,7 @@ section{
         color: #7c7c7c;
         padding: 0px 40px;
         text-align: center;
+        margin-bottom: 30px;
     }
     a {
         text-decoration: none;
@@ -523,8 +526,8 @@ section{
         background: #fc036b;
         border-radius: 30px;
         color:whitesmoke;
-        left: 50%;
-        right: 50%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
     
     
