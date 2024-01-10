@@ -16,7 +16,7 @@ header{
     align-items: center;
     padding: 15px 150px;
     transition: 0.5s ease;
-    backdrop-filter: blu(4px);
+    backdrop-filter: blur(4px);
 }
 .navigation-items.scrolled {
     color: rgb(223, 217, 217);
