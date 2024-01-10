@@ -18,9 +18,11 @@
         }
 
         const selectedLocation = getQueryParam('location');
+        const price = getQueryParam('price');
+
 
         if (selectedLocation) {
-            document.getElementById('booking-details').innerHTML += `<h2>${decodeURIComponent(selectedLocation)}</h2>`;
+            document.getElementById('booking-details').innerHTML += `<h2>${decodeURIComponent(selectedLocation)} </h2>`;
         }
     </script>
     <div id="booking" class="section">
