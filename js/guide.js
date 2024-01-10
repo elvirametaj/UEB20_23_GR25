@@ -34,7 +34,7 @@ const locations = [
     const image = document.createElement('img');
     image.src = location.image;
     image.alt = 'card__image';
-    image.width = 600; 
+    image.width = 1000; 
     image.height = 200; 
 
     const cardBodyDiv = document.createElement('div');
