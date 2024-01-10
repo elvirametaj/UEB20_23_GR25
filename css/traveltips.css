@@ -31,7 +31,7 @@ header{
 }
 
 header .brand{
-    color: #e8491d;
+    color: #fff;
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ header.navigation{
 
 header .navigation .navigation-items a{
     position: relative;
-    color:#e8491d;
+    color:#fff;
     font-size: 1.5em;
     font-weight: 500;
     text-decoration:none;
