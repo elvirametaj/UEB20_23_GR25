@@ -297,15 +297,15 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
 }
 .content .one .top,
 .content .one button{
-  background: #14eb6e;
+  background: #117e3e;
 }
 .content .two .top,
 .content .two button{
-  background: #e87130;
+  background: #b44d16;
 }
 .content .three .top,
 .content .three button{
-  background: #11BCC3;
+  background: #157f83;
 }
 .content button:hover {
   filter: brightness(90%);
