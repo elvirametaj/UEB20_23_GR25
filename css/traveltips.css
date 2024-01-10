@@ -288,18 +288,18 @@ section{
 }
 
 .row{
-    flex-wrap: wrap;
-    margin: 0 auto;
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
-.col-2{
+.col-4{
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
 }
-.col-2 img{
+.col-4 img{
     width:100%;
 }
 .title{
@@ -324,10 +324,9 @@ h4{
     color: #1f1e1e;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 10px;
 }
- p{
-    font-size: 15px;
+.h4 p{
+    font-size: 14px;
 }
 a{
     color: inherit;
@@ -340,14 +339,8 @@ a{
     padding-block: 30px;
     margin-block-end: 26px;
     z-index: 1;
+}
 
-}
-.card-banner img{
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    display: block;
-}
 .travel-card .has-before::before {
     top: 0;
     left: 50%;
@@ -472,7 +465,7 @@ a{
     padding-top: 100px;
 }
 
-.testimonial .col-testimonial{
+.testimonial .col-2{
     text-align: center;
     padding: 40px 20px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
@@ -480,13 +473,13 @@ a{
     transition: transform 0.5s;
 }
 
-.testimonial .col-testimonial img{
+.testimonial .col-2 img{
     width: 50px;
     margin-top: 20px;
     border-radius: 50%;
 }
 
-.testimonial .col-testimonial:hover{
+.testimonial .col-2:hover{
     transform: translateY(-10px);
 }
 
@@ -498,13 +491,13 @@ a{
 .fa.fa-star { color: #e8491d;}
 .fa.fa-star-o { color: #e8491d;}
 
-.col-testimonial p{
+.col-2 p{
     font-size: 12px;
     margin: 12px 0;
     color: #777;
 }
 
-.testimonial .col-testimonial h3{
+.testimonial .col-2 h3{
     font-weight: 600;
     color: #555;
     font-size: 16px;
@@ -582,7 +575,6 @@ footer {
 
 .github-links a:hover {
     background-color: #555;
-    color: #fff;
 }
 
 
