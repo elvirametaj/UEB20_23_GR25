@@ -4,21 +4,24 @@ const locations = [
       tag: 'Nature',
       name: 'Bali Indonesia',
       description: 'New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park.'
-      ,price:550
+      ,price:550,
+      data : '15/02/2024'
     },
     {
       image: '/images/sydney.webp',
       tag: 'City',
       name: 'Sydney',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!'
-      ,price:850
+      ,price:850,
+      data : '15/06/2024'
     },
     {
       image: '/images/Tokyo.jpg',
       tag: 'City',
       name: 'Tokyo',
       description: 'The Giza pyramid complex in Egypt is home to the Great Pyramid, the Pyramid of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx. All were built during the Fourth Dynasty of the Old Kingdom of ancient Egypt, between c. 2600 – c. 2500 BC.'
-      ,price:650
+      ,price:650,
+      data : '10/06/2024'
     },
     
   ];
@@ -72,7 +75,7 @@ const locations = [
     cardDiv.appendChild(cardFooter);
 
     button.addEventListener('click', function() {
-      openModal(location.name, location.description, location.price , location.image);
+      openModal(location.name, location.description, location.price , location.image , location.data);
     });
 
     return cardDiv;
@@ -92,7 +95,7 @@ const locations = [
   });
 
 
-  function openModal(title, description, price , image) {
+  function openModal(title, description, price , image , data) {
     const modal = document.getElementById('myModal');
     const modalTitle = document.getElementById('modalTitle');
     const modalDescription = document.getElementById('modalDescription');
@@ -103,7 +106,7 @@ const locations = [
 
     modalTitle.textContent = title;
     modalDescription.textContent = description;
-    modalPrice.textContent = 'Price: ' + price + '$';
+    modalPrice.textContent = 'Price: ' + price + '$' + '  Data of arrival:' + data;
     modalImage.src = image;
     modal.style.display = 'block';
   }
