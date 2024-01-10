@@ -287,19 +287,23 @@ section{
     }*/
 }
 
-.row{
+.row{/*
+    margin: 0 auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-around;*/
+    margin: 0 auto;
+    display: flex;
     justify-content: space-around;
 }
-.col-4{
+.col-2{
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
 }
-.col-4 img{
+.col-2 img{
     width:100%;
 }
 .title{
@@ -308,6 +312,12 @@ section{
     position: relative;
     line-height: 60px;
     color: black;
+}
+.card-banner img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
 }
 .title::after{
     content: '';
@@ -325,7 +335,7 @@ h4{
     font-weight: bold;
     text-transform: uppercase;
 }
-.h4 p{
+ p{
     font-size: 14px;
 }
 a{
