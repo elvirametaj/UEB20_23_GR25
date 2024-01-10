@@ -4,6 +4,9 @@ var countryData = {
         description: "Poland, a country nestled in the heart of Europe...",
         price: "$700",
         imagescr: "/images/polandbgimage.jpg",
+        images: [
+            
+        ]
     },
 };
 
