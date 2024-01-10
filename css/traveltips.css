@@ -258,41 +258,9 @@ section{
     transform: scale(1.2);
 }
 
-@media(max-width:700px){
-    .text-box h1{
-        font-size: 20px;
-    }
 
-    .navbar {
-        display: block;
-        position: fixed;
-        background: black;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-    nav .fa{
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }/*
-    nav {
-        padding: 30px;
-    }*/
-}
 
-.row{/*
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;*/
+.row{
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -334,9 +302,10 @@ h4{
     color: #1f1e1e;
     font-weight: bold;
     text-transform: uppercase;
+    margin-top: 10px;
 }
  p{
-    font-size: 14px;
+    font-size: 15px;
 }
 a{
     color: inherit;
