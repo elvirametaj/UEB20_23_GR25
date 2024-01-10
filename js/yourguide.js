@@ -149,7 +149,6 @@ window.addEventListener('load', function () {
                 break;
 
                 case 'portugal':
-                    // Your HTML for Poland specific details
                     var polandDetailsHtml = `
                     <table class="table table-bordered">
                     <thead>
