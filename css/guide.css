@@ -482,6 +482,6 @@ background: #d0f9fb;
 
   .third a:hover {
       color: #fff;
-          transition: 0.2s;
+      transition: 0.2s;
           text-shadow: 1px 1px 20px rgba(0,0,0,1);
       }
