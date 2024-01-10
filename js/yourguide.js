@@ -65,36 +65,16 @@ window.addEventListener('load', function () {
             case 'poland':
                 // Your HTML for Poland specific details
                 var polandDetailsHtml = `
-                    <div class="card one">
-                        <div class="top">
-                            <div class="title">${country.name}</div>
-                            <div class="price-sec">
-                                <span class="dollar">$</span>
-                                <span class="price">${country.price}</span>
-                                <span class="decimal">.00</span>
-                            </div>
-                        </div>
-                        <div class="info">${country.shortdescription}</div>
-                        <div class="details">
-                            <div class="one">
-                                <span>Hotel</span>
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <div class="one">
-                                <span>Airplane Tickets</span>
-                                <i class="fas fa-check"></i>
-                            </div>
-                            <div class="one">
-                                <span>Breakfast & Dinner</span>
-                                <i class="fas fa-times"></i>
-                            </div>
-                            <div class="one">
-                                <span>Guide</span>
-                                <i class="fas fa-times"></i>
-                            </div>
-                            <button onclick="bookNow('${country.name}' , '${country.price}')">Book Now</button>
-                        </div>
-                    </div>
+                <div class="card">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
                 `;
                 var detailsElement = document.createElement('div');
                 detailsElement.innerHTML = polandDetailsHtml;
