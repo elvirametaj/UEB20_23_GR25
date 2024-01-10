@@ -172,7 +172,38 @@ window.addEventListener('load', function () {
                         <!-- Add more rows for other categories -->
                     </tbody>
                 </table>
-                    `
+                    `;
+                    case 'albania':
+                        var polandDetailsHtml = `
+                        <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Medium Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Hotel</td>
+                                <td>$40 - $80 per night</td>
+                            </tr>
+                            <tr>
+                                <td>Restaurant</td>
+                                <td>$8 - $15 per person</td>
+                            </tr>
+                            <tr>
+                                <td>Public Transportation</td>
+                                <td>$0.50 - $1.50 per ticket</td>
+                            </tr>
+                            <!-- Add more rows for other categories -->
+                        </tbody>
+                    </table>
+                        `;
+
+                        var detailsElement = document.createElement('div');
+                        detailsElement.innerHTML = polandDetailsHtml;
+                        document.body.appendChild(detailsElement);
+                        break;
         }
     } else {
         countryNameElement.textContent = 'Country information not available.';
