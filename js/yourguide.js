@@ -34,7 +34,7 @@ window.addEventListener('load', function () {
     var imageRowElement = document.getElementById('imageRow');
 
     if (country) {
-        var { name, description, shortdescription, images } = country;
+      
         countryNameElement.textContent = country.name;
         countryDescriptionElement.textContent = country.description;
         shortDescriptionElement.textContent = country.shortdescription;
