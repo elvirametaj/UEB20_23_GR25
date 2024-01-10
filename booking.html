@@ -117,11 +117,15 @@
         const form = document.querySelector('form');
 
         form.addEventListener('submit', function (event) {
-            if (checkInInput.value >= checkOutInput.value) {
-                alert('Check-out date must be later than check-in date.');
-                event.preventDefault(); // Prevent form submission
-            }
-        });
+    try {
+        if (checkInInput.value >= checkOutInput.value) {
+            throw new Error('Check-out date must be later than check-in date.');
+        }
+    } catch (error) {
+        alert(error.message);
+        event.preventDefault();
+    }
+});
     });
     </script>
 </body>
