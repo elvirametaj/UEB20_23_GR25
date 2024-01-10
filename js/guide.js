@@ -90,3 +90,23 @@ const locations = [
       console.error('Element with id "locationContainer" not found.');
     }
   });
+
+
+  function openModal(title, description, price) {
+    const modal = document.getElementById('myModal');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalDescription = document.getElementById('modalDescription');
+    const modalPrice = document.getElementById('modalPrice');
+
+    modalTitle.textContent = title;
+    modalDescription.textContent = description;
+    modalPrice.textContent = 'Price: ' + price + '$';
+
+    modal.style.display = 'block';
+  }
+
+  // Function to close the modal
+  function closeModal() {
+    const modal = document.getElementById('myModal');
+    modal.style.display = 'none';
+  }
