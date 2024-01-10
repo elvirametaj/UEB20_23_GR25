@@ -52,5 +52,25 @@
               </div>
           </div>
       </main>
+      <div class="card-deck">
+      
+        <div class="row">
+         
+            country.images.forEach(function(imagePath) {
+                var cardHtml = `
+                    <div class="col-md-4 mb-4">
+                        <div class="card" style="width: 500px; height: 500px;">
+                            <img src="${imagePath}" class="card-img-top" alt="Image">
+                            <div class="card-body">
+                              
+                            </div>
+                        </div>
+                    </div>
+                `;
+                // Append each card to the card-deck
+                document.querySelector('.card-deck').innerHTML += cardHtml;
+            });
+        </div>
+    </div>
 </body>
 </html>
