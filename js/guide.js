@@ -102,8 +102,7 @@ const locations = [
     modalTitle.textContent = title;
     modalDescription.textContent = description;
     modalPrice.textContent = 'Price: ' + price + '$';
-    modalImage = image;
-
+    modalImage.src = image;
     modal.style.display = 'block';
   }
 
