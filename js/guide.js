@@ -92,20 +92,21 @@ const locations = [
   });
 
 
-  function openModal(title, description, price) {
+  function openModal(title, description, price , image) {
     const modal = document.getElementById('myModal');
     const modalTitle = document.getElementById('modalTitle');
     const modalDescription = document.getElementById('modalDescription');
     const modalPrice = document.getElementById('modalPrice');
+    const modalImage = document.getElementById('modalImage');
 
     modalTitle.textContent = title;
     modalDescription.textContent = description;
     modalPrice.textContent = 'Price: ' + price + '$';
+    modalImage = image;
 
     modal.style.display = 'block';
   }
 
-  // Function to close the modal
   function closeModal() {
     const modal = document.getElementById('myModal');
     modal.style.display = 'none';
