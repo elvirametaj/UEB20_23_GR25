@@ -52,7 +52,6 @@ window.addEventListener('load', function () {
                     </div>
                 </div>
             `;
-            // Append each card to the row
             var cardElement = document.createElement('div');
             cardElement.innerHTML = cardHtml;
             imageRowElement.appendChild(cardElement.firstChild);
