@@ -1,227 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guide</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="css/guide.css">
-    <link rel="stylesheet" href="style.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Guide</title>
+  <link rel="stylesheet" href="css/guide.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="js/guide.js"></script>
 </head>
 <body>
-
-<!-- home section -->
-<section class="home" id="home">
-  
-    <div class="content">
-        
-        <h3>Your Guide</h3>
-        <br>
-        <p>You will find all the best places to visit here</p>
-    
+  <header>
+    <a href="a" class="brand">NOVA VIA</a>
+    <div class="menu-btn"></div>
+    <div class="navigation" >
+        <div class="navigation-items">
+            <a href="home.html">Home</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="guides.html">Your Guide</a>
+            <a href="traveltips.html">Travel Tips</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="aboutus.html">About us</a>
+        </div>
     </div>
+  </header>
+  <main>
+    <article>
+      <section class="hero" id="home">
+        <div class="container">
 
+          <h2 class="h1 hero-title">YOUR GUIDE TO VISIT</h2>
+
+          <p class="hero-text">
+           Let's visit together the best places in the world
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary">Learn more</button>
+
+            <button class="btn btn-secondary">Book now</button>
+          </div>
+
+        </div>
+      </section>
+      <center>
+        <p id="active">UNCOVER PLACE</p>
+        <h1>POPULAR DESTINATION</h1>
+      </center>
+      <center>      
+        <div class="container2">
+        <div class="card">
+          <div class="card__header">
+            <img src="/images/newyorkimage.jpeg" alt="card__image" class="card__image" width="600" height="200">
+          </div>
+          <div class="card__body">
+            <span class="tag tag-blue">City</span>
+            <h4>NEW YORK</h4>
+            <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park.</p>
+          </div>
+         
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="/images/lakeimage.jpg" alt="card__image" class="card__image" width="600"  height="200">
+          </div>
+          <div class="card__body">
+            <span class="tag tag-brown">Nature</span>
+            <h4>Lake Lucerne</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
+          </div>
+          
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="/images/primaides.jpeg" alt="card__image" class="card__image" width="600"  height="200">
+          </div>
+          <div class="card__body">
+            <span class="tag tag-red">Wonders</span>
+            <h4>Egyptian pyramids</h4>
+            <p>The Giza pyramid complex in Egypt is home to the Great Pyramid, the Pyramid of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx. All were built during the Fourth Dynasty of the Old Kingdom of ancient Egypt, between c. 2600 – c. 2500 BC. </p></div>
+         
+        </div>
+      </div>
+    </center>
+    <center>
+      <p id="active">VIEW TOP OFFERS</p>
+      <h1>JUST PICK A LOCATION YOU LIKE</h1>
+    </center>
     <div class="container">
-  <nav class="navbar">
-        <a href="home.html">Home</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="guides.html">Your Guide</a>
-        <a href="traveltips.html">Travel Tips</a>
-        <a href="contactus.html">Contact Us</a>
-        <a href="aboutus.html">About Us</a>
+      <div class="left-div">
+        <img src="/images/airplane.gif" alt="" srcset="">
+      </div>
+      <div class="right-div">
+        <h2>Planning a trip?</h2>
+        <br>
+        <p>Planning a trip can be overwhelming, but our comprehensive travel guide is here to help. From destination recommendations to insider tips on local attractions and culture, our guide ensures you make the most out of your journey. Trust us to be your travel companion and make every moment memorable.</p>
+        <br>
+        <br>
+        <p>Discover the most affordable travel options tailored just for you. We search and compare prices from various sources to ensure you get the best deals on flights, accommodations, and more. Your dream vacation is just a click away!</p>
+      </div>
+    </div>
+    <center>
+      <p id="active">UPCOMMING TRIPS</p>
+      <h1>BEST PRICES WITH THE BEST GUIDE</h1>
+    </center>
+    <center>
+    <div class="container2" id="locationContainer"></div>
+    </center>
 
-
-    </nav>
-    <div class="background-img">
-
-    </div>
-        
-    </div>
-</section>
-<section class="cards">
-  <div class="card">
-    <div class="card__image-container">
-      <img
-        src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"
-      />
-    </div>
-    <div class="card__content">
-      <p class="card__title text--medium">
-        Here's the Title of an Awesome Place
-      </p>
-      <div class="card__info">
-        <p class="text--medium">30 Min</p>
-        <p class="card__price text--medium">Free</p>
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img id="modalImage" alt="Modal Image" width="300" height="300">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <p id="modalPrice"></p>
       </div>
     </div>
-  </div>
-  <div class="card">
-    <div class="card__image-container">
-      <img
-        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"
-      />
-    </div>
-    <div class="card__content">
-      <p class="card__title text--medium">
-        Here's the Title of an Awesome Place
-      </p>
-      <div class="card__info">
-        <p class="text--medium">30 Min</p>
-        <p class="card__price text--medium">Free</p>
+    <center>
+      <p id="active">Our Prices include</p>
+      <h1>Find in the table what our prices Include</h1>
+    </center>
+    <div class="content">
+      <div class="card one">
+        <div class="top">
+          <div class="title">Bali Indonesia</div>
+          <div class="price-sec">
+            <span class="dollar">$</span>
+            <span class="price">550</span>
+            <span class="decimal">.00</span>
+          </div>
+        </div>
+        <div class="info">Limited features you will get on this package</div>
+        <div class="details">
+          <div class="one">
+            <span>Hotel</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Airplane Tickets</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Breakfast & Dinner</span>
+            <i class="fas fa-times"></i>
+          </div>
+          <div class="one">
+            <span>Guide</span>
+            <i class="fas fa-times"></i>
+          </div>
+          <button>Book Now</button>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card__image-container">
-      <img
-        src="https://images.unsplash.com/photo-1473283147055-e39c51463929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"
-      />
-    </div>
-    <div class="card__content">
-      <p class="card__title text--medium">
-        Here's the Title of an Awesome Place
-      </p>
-      <div class="card__info">
-        <p class="text--medium">30 Min</p>
-        <p class="card__price text--medium">Free</p>
+      <div class="card two">
+        <div class="top">
+          <div class="title">Sydeny Australia</div>
+          <div class="price-sec">
+            <span class="dollar">$</span>
+            <span class="price">850</span>
+            <span class="decimal">.00</span>
+          </div>
+        </div>
+        <div class="info">Only some features you will get on this package</div>
+        <div class="details">
+          <div class="one">
+            <span>Hotel 5 Stars</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Airplane Tickets</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Breakfast & Dinner</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Guide</span>
+            <i class="fas fa-times"></i>
+          </div>
+          <button>Book Now</button>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card__image-container">
-      <img
-        src="https://images.unsplash.com/photo-1482784160316-6eb046863ece?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"
-      />
-    </div>
-    <div class="card__content">
-      <p class="card__title text--medium">
-        Here's the Title of an Awesome Place
-      </p>
-      <div class="card__info">
-        <p class="text--medium">30 Min</p>
-        <p class="card__price text--medium">Free</p>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card__image-container">
-      <img
-        src="https://images.unsplash.com/photo-1470104240373-bc1812eddc9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"
-      />
-    </div>
-    <div class="card__content">
-      <p class="card__title text--medium">
-        Here's the Title of an Awesome Place
-      </p>
-      <div class="card__info">
-        <p class="text--medium">30 Min</p>
-        <p class="card__price text--medium">Free</p>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card__image-container">
-      <img
-        src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"
-      />
-    </div>
-    <div class="card__content">
-      <p class="card__title text--medium">
-        Here's the Title of an Awesome Place
-      </p>
-      <div class="card__info">
-        <p class="text--medium">30 Min</p>
-        <p class="card__price text--medium">Free</p>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card__image-container">
-      <img
-        src="https://images.unsplash.com/photo-1534143046043-44af3469836b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"
-      />
-    </div>
-    <div class="card__content">
-      <p class="card__title text--medium">
-        Here's the Title of an Awesome Place
-      </p>
-      <div class="card__info">
-        <p class="text--medium">30 Min</p>
-        <p class="card__price text--medium">Free</p>
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card__image-container">
-      <img
-        src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"
-      />
-    </div>
-    <div class="card__content">
-      <p class="card__title text--medium">
-        Here's the Title of an Awesome Place
-      </p>
-      <div class="card__info">
-        <p class="text--medium">30 Min</p>
-        <p class="card__price text--medium">Free</p>
-      </div>
-    </div>
-  </div>
-  
-</section>
- 
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="footer-col">
-        <h4></h4>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Our services</a></li>
-          <li><a href="#">privacy policy</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4></h4>
-        <ul>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">shipping</a></li>
-          <li><a href="#">returns</a></li>
-          <li><a href="#">order status</a></li>
-          <li><a href="#">payment options</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4></h4>
-        <ul>
-          <li><a href="#">Nature</a></li>
-          <li><a href="#">Cities</a></li>
-          <li><a href="#">Mountains</a></li>
-          <li><a href="#">Sea</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>follow us</h4>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <div class="card three">
+        <div class="top">
+          <div class="title">Tokyo Japan</div>
+          <div class="price-sec">
+            <span class="dollar">$</span>
+            <span class="price">650</span>
+            <span class="decimal">.00</span>
+          </div>
+        </div>
+        <div class="info">All features you will get on this package</div>
+        <div class="details">
+          <div class="one">
+            <span>Hotel 5 Stars</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Airplane Tickets</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Breakfast & Dinner</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="one">
+            <span>Guide</span>
+            <i class="fas fa-check"></i>
+          </div>
+          <button>Book Now</button>
         </div>
       </div>
     </div>
-  </div>
-</footer>
-<script src="js/script.js"></script>
-<script src="js/guide.js"></script>
+    
 </body>
 </html>
-
-

@@ -19,6 +19,10 @@
 
   }
 
+  section {
+    padding-top: 100px; /* Adjust this value as needed */
+}
+
   header{
     z-index: 999;
     position: fixed;
@@ -275,9 +279,11 @@ section{
       margin: 3rem auto;
       width: 90vw;
       padding: 2rem;
-      background: rgba(169, 228, 228, 0.45);
+      background: rgba(255, 255, 255, 0.756);
       cursor: default;
       border-radius: 1rem;
+      margin-top: 400px;
+      margin-bottom: 400px;
     }
 
     .juma-quiz ul {
