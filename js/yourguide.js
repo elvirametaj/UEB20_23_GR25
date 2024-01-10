@@ -2,10 +2,9 @@ var countryData = {
     poland: {
         name: "Poland",
         description: "Poland, a country nestled in the heart of Europe...",
-        price: "$700",  
-      imagescr: "/images/polandgb.jpeg",
+        price: "$700",
+        imagescr: "/images/polandgb.jpeg",
     },
-   
 };
 
 function getParameterByName(name, url) {
@@ -25,6 +24,8 @@ if (selectedCountry && countryData[selectedCountry]) {
     document.write('<h1>' + country.name + '</h1>');
     document.write('<p>' + country.description + '</p>');
     document.write('<p>Price: ' + country.price + '</p>');
+
+    document.body.style.backgroundImage = 'url(' + country.imagescr + ')';
 } else {
     document.write('<p>Country information not available.</p>');
 }
