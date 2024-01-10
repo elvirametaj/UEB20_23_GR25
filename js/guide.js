@@ -71,6 +71,10 @@ const locations = [
     cardDiv.appendChild(cardBodyDiv);
     cardDiv.appendChild(cardFooter);
 
+    button.addEventListener('click', function() {
+      openModal(location.name, location.description, location.price);
+    });
+
     return cardDiv;
   }
 
