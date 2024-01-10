@@ -3,7 +3,7 @@ var countryData = {
         name: "Poland",
         description: "Poland, a country nestled in the heart of Europe...",
         price: "$700",
-        imagescr: "/images/polandbg.jpeg",
+        imagescr: "/images/polandbgimage.jpg",
     },
 };
 
@@ -26,6 +26,7 @@ if (selectedCountry && countryData[selectedCountry]) {
     document.write('<p>Price: ' + country.price + '</p>');
 
     document.body.style.backgroundImage = 'url(' + country.imagescr + ')';
+    document.body.style.backgroundSize = 'cover';
 } else {
     document.write('<p>Country information not available.</p>');
 }
