@@ -7,7 +7,7 @@ var countryData = {
         shortdescription:"Poland, a country adorned with breathtaking natural beauty, captivates visitors with its diverse landscapes and enchanting vistas. From the majestic Tatra Mountains in the south, where pristine alpine lakes mirror the towering peaks, to the picturesque Masurian Lakes region in the north, Poland offers a kaleidoscope of natural wonders Lush green forests blanket vast expanses of the countryside, revealing hidden gems like the Białowieża Forest, a UNESCO World Heritage site and Europe's last primeval forest. The Baltic Sea coastline introduces a different charm, with sandy beaches and serene coastal dunes stretching as far as the eye can see Polands numerous national parks, such as the Bieszczady and Karkonosze, showcase the countrys commitment to preserving its rich biodiversity. Tranquil lakes, meandering rivers, and rolling hills contribute to the countrys idyllic charm, inviting travelers to explore its untouched landscapes.",
 
         images: [
-            '/images/poland1.jpeg',
+            '/images/poland.jpg',
             
 
         ]
@@ -26,14 +26,15 @@ function getParameterByName(name, url) {
 
 window.addEventListener('load', function () {
     var selectedCountry = getParameterByName('country');
+    var country = countryData[selectedCountry];
     var countryNameElement = document.getElementById('countryName');
     var countryDescriptionElement = document.getElementById('countryDescription');
     var heroElement = document.getElementById('home');
     var shortDescriptionElement = document.getElementById('shortdescription');
     var imageRowElement = document.getElementById('imageRow');
 
-    if (selectedCountry && countryData[selectedCountry]) {
-        var country = countryData[selectedCountry];
+    if (country) {
+        var { name, description, shortdescription, images } = country;
         countryNameElement.textContent = country.name;
         countryDescriptionElement.textContent = country.description;
         shortDescriptionElement.textContent = country.shortdescription;
@@ -59,5 +60,6 @@ window.addEventListener('load', function () {
     } else {
         countryNameElement.textContent = 'Country information not available.';
         countryDescriptionElement.textContent = '';
+        shortDescriptionElement.textContent = '';
     }
 });
