@@ -8,8 +8,8 @@ const locations = [
     },
     {
       image: '/images/sydney.webp',
-      tag: 'Nature',
-      name: 'Lake Lucerne',
+      tag: 'City',
+      name: 'Sydney',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!'
       ,price:850
     },
