@@ -56,11 +56,14 @@ const locations = [
     const price = document.createElement('h2');
     price.textContent = location.price + '$';
 
+    const button = document.createElement('button');
+
     cardHeaderDiv.appendChild(image);
     cardBodyDiv.appendChild(tagSpan);
     cardBodyDiv.appendChild(nameHeading);
     cardBodyDiv.appendChild(descriptionParagraph);
     cardFooter.appendChild(price);
+    cardFooter.appendChild(button);
 
     cardDiv.appendChild(cardHeaderDiv);
     cardDiv.appendChild(cardBodyDiv);
