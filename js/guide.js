@@ -14,9 +14,9 @@ const locations = [
       ,price:850
     },
     {
-      image: '/images/primaides.jpeg',
-      tag: 'Wonders',
-      name: 'Egyptian pyramids',
+      image: '/images/Tokyo.jpg',
+      tag: 'City',
+      name: 'Tokyo',
       description: 'The Giza pyramid complex in Egypt is home to the Great Pyramid, the Pyramid of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the Great Sphinx. All were built during the Fourth Dynasty of the Old Kingdom of ancient Egypt, between c. 2600 – c. 2500 BC.'
       ,price:650
     },
