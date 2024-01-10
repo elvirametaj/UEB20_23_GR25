@@ -19,3 +19,12 @@ function getParameterByName(name, url) {
 }
 
 var selectedCountry = getParameterByName('country');
+
+if (selectedCountry && countryData[selectedCountry]) {
+    var country = countryData[selectedCountry];
+    document.write('<h1>' + country.name + '</h1>');
+    document.write('<p>' + country.description + '</p>');
+    document.write('<p>Price: ' + country.price + '</p>');
+} else {
+    document.write('<p>Country information not available.</p>');
+}
