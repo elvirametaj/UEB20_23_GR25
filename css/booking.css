@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(to right, #7B1FA2, #E91E63)
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
 }
 
 .section {
@@ -21,13 +22,13 @@ body {
 }
 
 .booking-form {
+    height: 70%;
     position: relative;
-    max-width: 642px;
-    width: 100%;
+    width: 50%;
     margin: auto;
     padding: 40px;
     overflow: hidden;
-    background-image: url('https://i.imgur.com/8z1tx3u.jpg');
+  
     background-size: cover;
     border-radius: 5px;
     z-index: 20;
