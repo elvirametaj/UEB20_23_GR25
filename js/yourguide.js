@@ -30,7 +30,8 @@ window.addEventListener('load', function () {
     var countryDescriptionElement = document.getElementById('countryDescription');
     var heroElement = document.getElementById('home');
     var shortDescriptionElement = document.getElementById('shortdescription');
-
+    var imageRowElement = document.getElementById('imageRow');
+    
     if (selectedCountry && countryData[selectedCountry]) {
         var country = countryData[selectedCountry];
         countryNameElement.textContent = country.name;
