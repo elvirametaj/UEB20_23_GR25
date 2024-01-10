@@ -216,7 +216,7 @@
     <script>
       function bookNow(location , price) {
         
-          window.location.href = `/booking.html?location=${encodeURIComponent(location , price)}`;
+        window.location.href = `/booking.html?location=${encodeURIComponent(location)}&price=${encodeURIComponent(price)}`;
       }
   </script>
 </body>
