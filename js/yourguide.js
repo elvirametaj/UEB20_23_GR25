@@ -27,11 +27,13 @@ window.addEventListener('load', function () {
     var countryNameElement = document.getElementById('countryName');
     var countryDescriptionElement = document.getElementById('countryDescription');
     var heroElement = document.getElementById('home');
+    var shortDescriptionElement = document.getElementById('shortdescription');
 
     if (selectedCountry && countryData[selectedCountry]) {
         var country = countryData[selectedCountry];
         countryNameElement.textContent = country.name;
         countryDescriptionElement.textContent = country.description;
+        shortDescriptionElement.textContent = country.shortdescription;
 
         heroElement.style.backgroundImage = 'url(' + country.imagescr + ')';
         heroElement.style.backgroundSize = 'cover';
