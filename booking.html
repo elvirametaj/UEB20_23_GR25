@@ -110,6 +110,19 @@
         if (selectedLocation) {
             document.getElementById('booking-details').innerHTML += `<h2>${decodeURIComponent(selectedLocation)}</h2>`;
         }
-    </script>e
+
+        document.addEventListener('DOMContentLoaded', function () {
+        const checkInInput = document.querySelector('input[type="date"][name="check-in"]');
+        const checkOutInput = document.querySelector('input[type="date"][name="check-out"]');
+        const form = document.querySelector('form');
+
+        form.addEventListener('submit', function (event) {
+            if (checkInInput.value >= checkOutInput.value) {
+                alert('Check-out date must be later than check-in date.');
+                event.preventDefault(); // Prevent form submission
+            }
+        });
+    });
+    </script>
 </body>
 </html>
