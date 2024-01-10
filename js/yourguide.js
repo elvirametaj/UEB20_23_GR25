@@ -50,7 +50,6 @@ window.addEventListener('load', function () {
                     <div class="card" style="width: 500px; height: 500px;">
                         <img src="${imagePath}" class="card-img-top" style="height: 300px; object-fit: cover;" alt="Image">
                         <div class="card-body">
-                            <!-- You can add additional content or captions here -->
                         </div>
                     </div>
                 </div>
@@ -65,14 +64,14 @@ window.addEventListener('load', function () {
             case 'poland':
                 // Your HTML for Poland specific details
                 var polandDetailsHtml = `
-                <div class="card">
+                <div class="card" style="width=100%;">
                 <div class="card-header">
-                  Featured
+                  Guide Plan
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Guide Plan </h5>
+                  <p class="card-text">Visit Ploand starting from $700</p>
+                  <a onclick="bookNow('Poland' , '700.00')" class="btn btn-primary">Book Now</a>
                 </div>
               </div>
                 `;
