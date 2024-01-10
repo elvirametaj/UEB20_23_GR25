@@ -178,3 +178,15 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   font: 15px;
   color:lightseagreen;
 }
+
+.left-div {
+  flex: 1;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+.right-div {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
