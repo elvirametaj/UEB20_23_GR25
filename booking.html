@@ -107,8 +107,9 @@
         const price = getQueryParam('price');
 
 
-        if (selectedLocation) {
-            document.getElementById('booking-details').innerHTML += `<h2>${decodeURIComponent(selectedLocation)} </h2>`;
+        if (selectedLocation && price) {
+            document.getElementById('booking-details').innerHTML += `<h2>${decodeURIComponent(selectedLocation)}</h2>`;
+            document.getElementById('booking-details').innerHTML += `<p>Price: $${parseFloat(price).toFixed(2)}</p>`;
         }
     </script>
 </body>
