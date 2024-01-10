@@ -57,6 +57,8 @@ const locations = [
     price.textContent = location.price + '$';
 
     const button = document.createElement('button');
+    button.className = 'btn btn-primary';
+    button.textContent = 'View More';
 
     cardHeaderDiv.appendChild(image);
     cardBodyDiv.appendChild(tagSpan);
