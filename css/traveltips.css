@@ -29,9 +29,7 @@ header{
     transition: 0.5s ease;
     backdrop-filter: blur(4px);
 }
-.navigation-items.scrolled {
-    color: black;
-}
+
 header .brand{
     color: #e8491d;
     font-size: 2rem;
