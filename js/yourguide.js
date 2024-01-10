@@ -21,13 +21,14 @@ window.addEventListener('load', function () {
     var selectedCountry = getParameterByName('country');
     var countryNameElement = document.getElementById('countryName');
     var countryDescriptionElement = document.getElementById('countryDescription');
+    var heroElement = document.getElementById('home');
 
     if (selectedCountry && countryData[selectedCountry]) {
         var country = countryData[selectedCountry];
         countryNameElement.textContent = country.name;
         countryDescriptionElement.textContent = country.description;
 
-        document.body.style.backgroundImage = 'url(' + country.imagescr + ')';
+        heroElement.style.backgroundImage = 'url(' + country.imagescr + ')';
     } else {
         countryNameElement.textContent = 'Country information not available.';
         countryDescriptionElement.textContent = '';
