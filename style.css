@@ -28,6 +28,10 @@ header .brand{
     text-transform: uppercase;
     text-decoration: none;
 }
+.header-scrolled {
+    background-color: white;
+}
+
 
 header.navigation{
     display: flex;
