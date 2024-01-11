@@ -345,6 +345,11 @@ a{
 
 .travel-card:is(:hover, :focus-within) .card-banner { transform: scale(1.05);}
 
+.list {
+    color: #e8491d;
+}
+
+
 #hiddenText {
     color: black(46, 45, 45);
 }
