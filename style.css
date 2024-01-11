@@ -370,7 +370,7 @@ section{
         }
 
         .menu-btn{
-            background: url(menu.png) no-repeat;
+            background: url('menu.png') no-repeat;
             background-size: 30px;
             background-position: center;
             width: 40px;
@@ -408,6 +408,7 @@ section{
         display: flex;
         width: 300px;
         height: 300px;
+        padding: 15px;
     }
     
     .travel .row{
@@ -500,25 +501,35 @@ section{
     
     .content-col p{
         padding: 0;
-        margin: 30px;
+        text-align: center;
+        font-size: 15px;
     }
     
     .content-col .ctn{
         margin-left: -100px;
     }
     .tours .row .col h1 {
+        margin: 0 auto;
         color: rgb(32, 32, 32);
-        margin: 10px;
-        align-content: center;
+        width: 100%;
+        padding: 10px;
     }
     .tours .row .col p {
+        padding: auto;
         color: #33383b;
+        width: 100%;
+        padding: 15%;
+        text-align: left;
     }
 
+.tours .ctn {
+     margin:  auto;
+
+} 
     /*Animatons*/
     
     img{
-        transition: tranform .3s ease;
+        transition: tranform 3s ease;
     }
     
     img:hover{
