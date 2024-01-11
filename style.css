@@ -538,13 +538,13 @@ section{
     
     .ctn:hover{
         background: whitesmoke;
-        color:#fc036b;
+        color:#e8491d;
         box-shadow: 2px 2px 5px #00000056;
     }
     
     .ctn{
         padding: 8px 15px;
-        background: #fc036b;
+        background: #e8491d;
         border-radius: 30px;
         color:whitesmoke;
         margin-left: 30%;
