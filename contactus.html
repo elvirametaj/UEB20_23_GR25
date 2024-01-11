@@ -8,91 +8,112 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Contact us
-        
+
     </title>
     <link href="./css/contactus.css" rel="stylesheet">
- 
+    <script>
+        function validateForm(event) {
+            event.preventDefault()
+
+            const name = document.querySelector('#name');
+            const email = document.querySelector('#email');
+            const message = document.querySelector('#message');
+            const password = document.querySelector('#password');
+
+            const errors = [];
+
+            if (name.value.trim() == "") {
+                errors.push('Name must be filled out');
+            }
+            if (email.value.trim() == "") {
+                errors.push('Email must be filled out');
+            }
+            if (!email.value.trim().toLowerCase()
+                .match(
+                    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+                )) {
+                errors.push('Email must be an email');
+            }
+
+            if (message.value.trim() == "") {
+                errors.push('Message must be filled out');
+            }
+            if (password.value.trim() == "") {
+                errors.push('Password must be filled out');
+            }
+            if (password.value.trim().length < 6) {
+                errors.push('Password must min 6 characters');
+            }
+
+            if (errors.length > 0) {
+                alert(errors.join("\n"));
+                return false;
+            }
+
+            alert('Successfully sent');
+        }
+    </script>
 </head>
- 
+
 <body>
-    <div class="bg-background"></div>
-    <div class="container py-5">
-        <div class="row py-5 g-3">
+<div class="bg-background"></div>
+<div class="container py-5">
+    <div class="row py-5 g-3">
 
-            <div class="col-md-6 first_col ">
-                <h1 class="text-center mt-3">Contact Us</h1>
-                <form class="p-4 mt-5">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Enter your Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email </label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Enter your massage</label>
-                        <textarea  type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Email" required></textarea>
-                    </div>
-                
-                    <div class="mb-3">
-                        <label for="exampleFormControlInputPassword" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="exampleFormControlInputPassword" placeholder="Password" required>
-                    </div>
-                
-                    <div class="mb-3">
-                        <button class="btn btn-primary">Send Now</button>
-                    </div>
+        <div class="col-md-6 first_col">
+            <h1 class="text-center mt-3">Contact Us</h1>
+            <form class="p-4 mt-5" onsubmit="return validateForm(event)">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Enter your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Enter your massage</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary" type="submit">Send Now</button>
+                </div>
 
-                </form>
-            </div>
-            <div class="col-md-6 sec_col">
-                <img src="./images/nature-1.jpg"
-                    class="img-fluid">
-            </div>
+            </form>
         </div>
-        <div class="row-last">
-            <div class="row row-cols-1 row-cols-md-3  p-3 text-white">
-                <div class="col">
-                    <h4>CALL US</h4>
-                    <p>+383(45)121212</p>
+        <div class="col-md-6 sec_col">
+            <img src="./images/nature-1.jpg"
+                 class="img-fluid">
+        </div>
+    </div>
+    <div class="row-last">
+        <div class="row row-cols-1 row-cols-md-3  p-3 text-white">
+            <div class="col">
+                <h4>CALL US</h4>
+                <p>+383(45)121212</p>
+            </div>
+            <div class="col">
+                <div>
+                    <h4>LOCATION</h4>
+                    <p>
+                        Visit us at: <a href="https://www.google.com/maps/place/BIT+Academy/@42.6515135,21.1713031,17z/data=!3m1!4b1!4m6!3m5!1s0x13549f463e1683c9:0x317be6fd27211341!8m2!3d42.6515135!4d21.173878!16s%2Fg%2F11gmyh4f1z?entry=ttu"><br>R. Hyzri Talla, 10000 Prishtin</a>
+                    </p>
                 </div>
-                <div class="col">
-                    <div>
-                        <h4>LOCATION</h4>
-                        <p>
-                            Visit us at: <a href="https://www.google.com/maps/place/BIT+Academy/@42.6515135,21.1713031,17z/data=!3m1!4b1!4m6!3m5!1s0x13549f463e1683c9:0x317be6fd27211341!8m2!3d42.6515135!4d21.173878!16s%2Fg%2F11gmyh4f1z?entry=ttu"><br>R. Hyzri Talla, 10000 Prishtin</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <h4>Email</h4>
-                    <address>
-                        Contact us at:
-                        <a href="mailto:webmaster@gamil.com">webmaster@gamil.com</a><br>
-                    </address>
-                </div>
+            </div>
+            <div class="col">
+                <h4>Email</h4>
+                <address>
+                    Contact us at:
+                    <a href="mailto:webmaster@gamil.com">webmaster@gamil.com</a><br>
+                </address>
             </div>
         </div>
     </div>
-
-    
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-</body>
-
-</html>
+</div>
