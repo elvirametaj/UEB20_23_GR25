@@ -48,3 +48,8 @@ function sendMail(contactForm) {
 }
 
 
+
+$("div").click(function()
+{
+console.log("You cicked a paragraph")
+})
