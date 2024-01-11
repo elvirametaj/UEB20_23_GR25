@@ -2,113 +2,136 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guide</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/guide.css">
-    <link rel="stylesheet" href="css/aboutus.css">
+    <title>Card Slider |Dev Mode</title>
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/aboutus.css">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
-<!-- home section -->
-<section class="home" id="home">
-    <div class="content">
-        <div class="container-aboutus">
-            <div class="left-div">
-                <center>
-                <img src="images/uplogo.png" width="350" height="300">
-            </center>
-            </div>
-            
-            <div class="right-div">
-                <h2>About Us:</h2>
-                <br>
-                <p style="color:black;font-weight: 500;">As passionate software engineering students of University of Prishtina , we are thrilled to unveil our latest creation—an immersive Travel Guide project crafted with HTML, CSS, and JavaScript. </p>
-                <h2>About Our Project:
-                </h2>
-                <br>
-                <p style="color:black;font-weight: 500;">In a world filled with diverse cultures, picturesque landscapes, and hidden gems, we found inspiration to create a digital companion that beckons travelers to embark on unforgettable journeys. Our Travel Guide project is a web application designed to provide users with a seamless and enriching experience as they plan their next escapade.</p>
-            </div>
+
+  <header id="main-header">
+    <a href="a" class="brand">NOVA VIA</a>
+    <div class="menu-btn"></div>
+    <div class="navigation" >
+        <div class="navigation-items">
+            <a href="home.html">Home</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="guides.html">Your Guide</a>
+            <a href="traveltips.html">Travel Tips</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="aboutus.html">About us</a>
         </div>
     </div>
-    <div class="container">
-  <nav class="navbar" style="background-color: black;">
-        <a href="home.html">Home</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="guides.html">Your Guide</a>
-        <a href="traveltips.html">Travel Tips</a>
-        <a href="contactus.html">Contact Us</a>
-        <a href="aboutus.html">About Us</a>
+  </header>
+  
 
+  <section class="swiper mySwiper">
 
-    </nav>
-   
-</div>
+    <div class="swiper-wrapper">
 
-</section>
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="./images/user1.jpg" alt="card image">
+        </div>
 
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<footer class="footer-distributed">
-  <div class="footer-left">
-      <h3>NOVA<span>VIA</span></h3>
-
-      <p class="footer-links">
-          <a href="#top">Home</a>
-          |
-          <a href="aboutus.html">About</a>
-          |
-          <a href="contactus.html">Contact</a>
-          |
-          <a href="booking.html">Booking</a>
-      </p>
-
-      <p class="footer-company-name">Copyright © 2024 <strong>NovaVia</strong> All rights reserved</p>
-  </div>
-
-  <div class="footer-center">
-      <div>
-          <i class="fa fa-map-marker"></i>
-          <p><span>Visit us at: <a href="https://www.google.com/maps/place/BIT+Academy/@42.6515135,21.1713031,17z/data=!3m1!4b1!4m6!3m5!1s0x13549f463e1683c9:0x317be6fd27211341!8m2!3d42.6515135!4d21.173878!16s%2Fg%2F11gmyh4f1z?entry=ttu"><br>R. Hyzri Talla, 10000 Prishtin&euml;</a></span>
-              </p>
+        <div class="card__content">
+          <span class="card__title">Web Designer</span>
+          <span class="card__name">Vanessa Martinez</span>
+          <p class="card__text">As a web designer, my role is to blend creativity with technical expertise to craft visually captivating and user-friendly websites. </p>
+          
+        </div>
       </div>
 
-      <div>
-          <i class="fa fa-phone"></i>
-          <p>+383(45)121212</p>
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="./images/user2.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Ui Designer</span>
+          <span class="card__name">Sarah Bowen</span>
+          <p class="card__text">My work revolves around translating complex ideas into user-friendly designs that prioritize both aesthetics and functionality</p>
+      
+        </div>
       </div>
-      <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="mailto:webmaster@gamil.com">webmaster@gamil.com</a></p>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="./images/user3.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Web Developer</span>
+          <span class="card__name">David Murphy</span>
+          <p class="card__text">With a profound understanding of programming languages such as HTML, CSS, and JavaScript, I specialize in responsive web solutions</p>
+          
+        </div>
       </div>
-  </div>
-  <div class="footer-right">
-      <p class="footer-company-about">
-          <span>About Us</span>
-          <strong>Nova Via</strong> is a blog where you can find lots of creative pics
-          from around the world!
-      </p>
-      <div class="footer-icons">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-youtube"></i></a>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="./images/user4.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Mobile Designer</span>
+          <span class="card__name">Kelsey West</span>
+          <p class="card__text">I immerse myself in understanding the unique challenges and opportunities presented by mobile platforms.</p>
+          
+        </div>
       </div>
-  </div>
-</footer>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="./images/user5.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Software engineer</span>
+          <span class="card__name">Sarah Gomez</span>
+          <p class="card__text"> With a foundation in various programming languages and a commitment to continuous learning, I thrive on architecting robust and scalable solutions.</p>
+          
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
 
 
 
 
 
-<script src="js/home.js"></script>
-<script src="js/script.js"></script>
+
 </body>
 </html>
-
-
