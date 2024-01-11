@@ -49,7 +49,7 @@ function sendMail(contactForm) {
 
 
 
-$("col").click(function()
+$("btn btn-primary").click(function()
 {
 console.log("You cicked a paragraph")
 })
