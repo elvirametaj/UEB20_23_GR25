@@ -393,7 +393,8 @@ margin: auto;
 }
 
     /*footer*/
-     footer {
+    /*footer*/
+    footer {
         position: fixed;
         bottom: 0;
     }
@@ -564,4 +565,6 @@ margin: auto;
             margin-left: 0;
         }
     }       
-         
+            
+
+
