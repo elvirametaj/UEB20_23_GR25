@@ -405,8 +405,6 @@ section{
     }
     .row .col img{
         margin: 0 auto;
-        margin-left: 40px;
-        margin-right: 40px;
         display: flex;
         width: 300px;
         height: 300px;
@@ -467,7 +465,10 @@ section{
         width: 40%;
     
     }
-    
+    .col h1 {
+        margin-left: 0;
+       
+    }
     
     .image-col{
         width: 60%;
@@ -489,7 +490,7 @@ section{
     }
     
     .content-col h1{
-        font-size: 7vmin;
+        font-size: 20px;
         color: #484872;
     }
     
@@ -529,8 +530,7 @@ section{
         margin-left: 30%;
         margin-right: 30%;
     }
-    
-    
+  
     /*footer*/
     * {
         margin: 0px;
