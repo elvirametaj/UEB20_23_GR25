@@ -9,6 +9,7 @@ videoBtn.forEach(btn => {
     });
 });
 
+/* JS For Comment Section */
 function submitComment() {
   alert("Your comment has been submitted!");
 }
