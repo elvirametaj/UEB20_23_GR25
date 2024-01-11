@@ -9,7 +9,9 @@ videoBtn.forEach(btn => {
     });
 });
 
-
+function submitComment() {
+  alert("Your comment has been submitted!");
+}
 
 /*-- JS For Rating ---*/
 
