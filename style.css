@@ -16,13 +16,13 @@ header{
     align-items: center;
     padding: 15px 150px;
     transition: 0.5s ease;
-    backdrop-filter: blur(4px);
+  
 }
 .navigation-items.scrolled {
     color: rgb(223, 217, 217);
 }
 header .brand{
-    color: #efece8;
+    color: #010101;
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
