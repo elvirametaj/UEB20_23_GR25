@@ -1,50 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+.contact-us {
+  background: url("http://www.dentons.com/~/media/Images/Website/Background%20Images/Landing%20Pages/Whats%20Different%20About%20Dentons/Contact%20us/contact3.jpg") no-repeat center fixed;
+  background-size: cover;
+  min-height: 300px;
+  color: #fff;
 }
 
-
-header{
-    z-index: 999;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 150px;
-    transition: 0.5s ease;
-    backdrop-filter: blur(4px);
-}
-.navigation-items.scrolled {
-    color: black;
-}
-header .brand{
-    color: black;
-    font-size: 2rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    text-decoration: none;
+.contact-us .fields {
+  background: rgba(2, 2, 2, 0.7);
+  min-height: 300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-header.navigation{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
+.contact-us p {
+  margin-bottom: 40px;
 }
 
-header .navigation .navigation-items a{
-    position: relative;
-    color:black;
-    font-size: 1.5em;
-    font-weight: 500;
-    text-decoration:none;
-    padding: 0 15px;
-    transition: 0.3s ease;
+.contact-us textarea {
+  height: 108px;
 }
 
 header .navigation .navigation-items a:before{
