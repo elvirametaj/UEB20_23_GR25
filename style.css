@@ -511,12 +511,16 @@ section{
     .tours .row .col h1 {
         color: rgb(32, 32, 32);
         margin: 10px;
-        align-content: center;
+        text-align: left;
     }
     .tours .row .col p {
         color: #33383b;
+        text-align: left;
+        margin: 15px;
     }
-
+.tours .ctn {
+    margin: 0 auto;
+}
     /*Animatons*/
     
     img{
