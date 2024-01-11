@@ -322,14 +322,16 @@
         </div>
     </div>
 </footer>
-  
+<script>
+  var header = document.getElementById("main-header");
+  var scrollPrev = window.scrollY;
 
-
-
+  window.onscroll = function () {
+      var scrollCurrent = window.scrollY;
+      header.style.backgroundColor = "white";
+    
       
-
-
-
-
+  };
+</script>
 </body>
 </html>
