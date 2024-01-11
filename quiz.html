@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/quiz.css">
 	<link rel="stylesheet" href="style.css">
 	<style>
@@ -24,7 +25,15 @@
 		z-index: -1;
 	  }
 	
-	
+	  #audio-container {
+            text-align: center;
+            position: absolute;
+            cursor: grab;
+            user-select: none;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
 	
 	</style>
@@ -56,16 +65,19 @@
 	
 	  </video>
 	  
-	  <audio autoplay loop id="audio">
-		<source src="./images/audio.mp3" type="audio/mp3">
-
-	</audio>
+	  <div id="audio-container" draggable="true" ondragstart="startDrag(event)">
+        <audio controls autoplay loop id="audio">
+            <source src="./audio/audio.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
 	
     
 
 
     <div class="container">
        
+		
         <div class="juma-quiz">
             <ol id="js--my-quiz">
                 <li>
@@ -145,9 +157,9 @@
 	</div>
 </div>
 <!-- load jquery (necessary)-->
-<script src="jquery.min.js"></script>
+<script src="./js/jquery.min.js"></script>
 <!-- load the plugin -->
-<script src="jquery.juma-quiz-min.js"></script>
+<script src="./js/jquery.juma-quiz-min.js"></script>
 <!-- init the plugin and define your options -->
 <script>
 	$(function(){
@@ -221,6 +233,27 @@
       
         
     };
+</script>
+
+<script>
+	function startDrag(e) {
+		e.dataTransfer.setData('text/plain', 'dummy'); // Required for Firefox
+	}
+
+	document.addEventListener('dragover', (e) => {
+		e.preventDefault();
+	});
+
+	document.addEventListener('drop', (e) => {
+		e.preventDefault();
+
+		const audioContainer = document.getElementById('audio-container');
+		const x = e.clientX - audioContainer.offsetWidth / 2;
+		const y = e.clientY - audioContainer.offsetHeight / 2;
+
+		audioContainer.style.left = `${x}px`;
+		audioContainer.style.top = `${y}px`;
+	});
 </script>
 </body>
 </html>

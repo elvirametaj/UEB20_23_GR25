@@ -15,23 +15,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
+    <header id="main-header">
+        <a href="a" class="brand">NOVA VIA</a>
+        <div class="menu-btn"></div>
+        <div class="navigation" >
+            <div class="navigation-items">
+                <a href="home.html">Home</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="guides.html">Your Guide</a>
+                <a href="traveltips.html">Travel Tips</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="aboutus.html">About us</a>
+            </div>
+        </div>
+      </header>
+      
 
-<header>
-  <a href="a" class="brand">NOVA VIA</a>
-  <div class="menu-btn"></div>
-  <div class="navigation" >
-      <div class="navigation-items">
-          <a href="home.html">Home</a>
-          <a href="quiz.html">Quiz</a>
-          <a href="guides.html">Your Guide</a>
-          <a href="traveltips.html">Travel Tips</a>
-          <a href="contactus.html">Contact Us</a>
-          <a href="aboutus.html">About us</a>
-      </div>
-  </div>
-</header>
+
 <section class="home" id="home">
   <img class="background-img" id="img" >
 
@@ -108,6 +111,17 @@
 </footer>
   
 
+<script>
+    var header = document.getElementById("main-header");
+    var scrollPrev = window.scrollY;
+
+    window.onscroll = function () {
+        var scrollCurrent = window.scrollY;
+        header.style.backgroundColor = "white";
+      
+        
+    };
+</script>
 
 
 

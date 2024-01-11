@@ -13,6 +13,7 @@ body{
     left: 155px;
     top: 171px;
     border-radius: 20px;
+    
 }
 
 .img-fluid {
@@ -49,6 +50,8 @@ body{
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     border: 1px solid #c1b688;
+    margin-top: -11px;
+    
 }
 .form-control[type=text]:focus {
 border: 2px solid #555;

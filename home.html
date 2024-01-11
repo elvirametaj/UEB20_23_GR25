@@ -22,6 +22,11 @@
       
       padding: 2px;
     }
+
+    .home p{
+    font-style:oblique ;
+}
+        
   </style>
 
 
@@ -45,61 +50,32 @@
 
 <!-- home section -->
 <section class="home" id="home">
-    <video class="video-slide active" src="images/video1.mp4" autoplay muted loop></video>
-    <video class="video-slide" src="images/video 2.mp4" autoplay muted loop></video>
-    <video class="video-slide" src="images/video 3.mp4" autoplay muted loop></video>
-    <video class="video-slide" src="images/video 4.mp4" autoplay muted loop></video>
-    <video class="video-slide" src="images/video 5.mp4" autoplay muted loop></video>
-    <video src="images/video1.mp4" id="video-slider" loop autoplay muted></video>
+
   
     <video src="images/video1.mp4" id="video-slider" loop autoplay muted></video>
 
     <div class="content active">
-        
-       
-        <p>Explore exciting destinations with us, a world of adventure is waiting</p>
+         <p><b>"Explore exciting destinations with us, a world of adventure is waiting"</b></p>
         <a href="quiz.html" style="--clr: #e8491d" class="btn"><span>Discover More!</span><i></i></a>
     </div>
-    <div class="content">
-        <h3>Enjoy Nature</h3>
-        <p>Explore exciting destinations with us, a world of adventure is waiting</p>
-        <a href="quiz.html" class="btn">Discover more</a>
-    </div>
-    <div class="content">
-        <h3>Enjoy off Road</h3>
-        <p>Explore exciting destinations with us, a world of adventure is waiting</p>
-        <a href="quiz.html" class="btn">Discover more</a>
-    </div>
-        <div class="content">
-            <h3>Enjoy Nature</h3>
-            <p>Explore exciting destinations with us, a world of adventure is waiting</p>
-            <a href="quiz.html" class="btn">Discover more</a>
+
+           <div class="slider-navigation">
+            <div class="nav-btn active" data-src="images/video1.mp4"></div>
+            <div class="nav-btn" data-src="images/video 2.mp4"></div>
+            <div class="nav-btn" data-src="images/video 3.mp4"></div>
+            <div class="nav-btn" data-src="images/video 4.mp4"></div>
+            <div class="nav-btn" data-src="images/video 5.mp4"></div>
         </div>
-        <div class="content">
-            <h3>Enjoy Nature</h3>
-            <p>Explore exciting destinations with us, a world of adventure is waiting</p>
-            <a href="quiz.html" class="btn">Discover more</a>
-        </div>
-
-
-
-    <div class="media-icons">
-        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-        
-    </div>
-    <div class="slider-navigation">
-        <div class="nav-btn active"></div>
-        <div class="nav-btn"></div>
-        <div class="nav-btn"></div>
-        <div class="nav-btn"></div>
-        <div class="nav-btn"></div>
-    </div>
-
+   
 
 </section>
 
+<div id="audio-container" draggable="true" ondragstart="startDrag(event)">
+    <audio  autoplay loop id="audio">
+        <source src="audio/summer.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+</div>
 
 <section class="travel">
     <div class="title">
@@ -218,6 +194,8 @@
         
     };
 </script>
+
+<script src="js/script.js"></script>
 </body>
 
 </html>
