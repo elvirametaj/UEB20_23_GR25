@@ -1,9 +1,3 @@
-/*!
- * jQuery Personality Quiz Plugin
- * Original author: Michael Scharnagl @justmarkup
- * Version 0.2.0
- * Licensed under the MIT license
- */
 !function(a){"use strict";function b(b,c){this.element=b,this.options=a
     .extend({},s,c),g=this.options,this._defaults=s,this._name=r,this.init()}function c(){a(p)
         .before('<div class="juma-progress"><span></span></div>'),q=a(p).outerWidth(),m=".juma-progress",o=a(m+"> span"),a(m)
