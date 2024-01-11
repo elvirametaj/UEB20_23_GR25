@@ -65,8 +65,7 @@ header .navigation .navigation-items a:hover {
     top: -2px;
 }
 
-section{
-   
+section{ 
     padding: 0 150px;
 }
 
@@ -104,6 +103,7 @@ section{
     text-align: center;
     margin-top: 50px;
     display: none;
+    margin-bottom: 10px;
 }
 
 .home .content.active{
@@ -485,7 +485,7 @@ a{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 90px;
+    
 }
 
 
@@ -829,7 +829,7 @@ a{
         color: #ffffff;
         font-size: 18px;
         font-weight: bold;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     
     .footer-distributed .footer-icons {
@@ -848,7 +848,6 @@ a{
         text-align: center;
         line-height: 35px;
         margin-right: 3px;
-        margin-bottom: 5px;
     }
     
     .footer-distributed .footer-icons a:hover {
