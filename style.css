@@ -506,6 +506,15 @@ section{
     .content-col .ctn{
         margin-left: -100px;
     }
+    .tours .row .col h1 {
+        color: rgb(32, 32, 32);
+        margin: 10px;
+        align-content: center;
+    }
+    .tours .row .col p {
+        color: #33383b;
+    }
+
     /*Animatons*/
     
     img{
@@ -530,7 +539,10 @@ section{
         margin-left: 30%;
         margin-right: 30%;
     }
-  
+
+
+
+
     /*footer*/
     footer {
         position: fixed;
