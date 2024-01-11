@@ -113,7 +113,10 @@
   #todoList .disabled {
     color: #8f98a8;
   }
-  
+  #reminder{
+    text-decoration: none;
+    color: #2d70fd;
+  }
   .disabled {
     display: flex;
     text-decoration: line-through;
