@@ -484,7 +484,9 @@ section{
         margin-left: 30%;
         margin-right: 30%;
     }
-
+.row .col img {
+    padding: 15px;
+}
 
 
 
